@@ -1,0 +1,3 @@
+ADD JAR /home/train/workspace/Hive/hiveudfs.jar;
+CREATE TEMPORARY FUNCTION moneyflow AS 'hiveudfs.MoneyFlow';
+SELECT symbol, pricedate, moneyflow(high, low, close, volume) FROM stocks;

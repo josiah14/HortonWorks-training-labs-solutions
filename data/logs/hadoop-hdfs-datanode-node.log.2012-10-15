@@ -1,0 +1,396 @@
+2012-10-15 08:10:46,399 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = java.net.UnknownHostException: node: node
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:10:47,009 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:11:07,074 ERROR org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31: java.net.UnknownHostException: node: node
+2012-10-15 08:11:07,150 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:11:07,435 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:11:27,466 ERROR org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Error getting localhost name. Using 'localhost'...
+java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.getHostname(MetricsSystemImpl.java:463)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configureSystem(MetricsSystemImpl.java:394)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configure(MetricsSystemImpl.java:390)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.start(MetricsSystemImpl.java:152)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.init(MetricsSystemImpl.java:133)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.init(DefaultMetricsSystem.java:40)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.initialize(DefaultMetricsSystem.java:50)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1538)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1557)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.secureMain(DataNode.java:1683)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1700)
+2012-10-15 08:11:27,497 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:11:27,497 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-15 08:11:27,778 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:11:37,542 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception, retry in 542ms
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:11:38,087 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception and over retry limit, suppressing further error messages
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:11:48,113 ERROR org.apache.hadoop.hdfs.server.datanode.DataNode: java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.security.SecurityUtil.getLocalHostName(SecurityUtil.java:182)
+	at org.apache.hadoop.security.SecurityUtil.login(SecurityUtil.java:200)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.<init>(DataNode.java:296)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:1600)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1539)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1557)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.secureMain(DataNode.java:1683)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1700)
+
+2012-10-15 08:11:48,126 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at java.net.UnknownHostException: node: node
+************************************************************/
+2012-10-15 08:24:04,911 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = java.net.UnknownHostException: node: node
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:24:05,089 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:24:25,125 ERROR org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31: java.net.UnknownHostException: node: node
+2012-10-15 08:24:25,144 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:24:25,200 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:24:45,225 ERROR org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Error getting localhost name. Using 'localhost'...
+java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.getHostname(MetricsSystemImpl.java:463)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configureSystem(MetricsSystemImpl.java:394)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configure(MetricsSystemImpl.java:390)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.start(MetricsSystemImpl.java:152)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.init(MetricsSystemImpl.java:133)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.init(DefaultMetricsSystem.java:40)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.initialize(DefaultMetricsSystem.java:50)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1538)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1557)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.secureMain(DataNode.java:1683)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1700)
+2012-10-15 08:24:45,229 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:24:45,229 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-15 08:24:45,317 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:24:55,240 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception, retry in 7926ms
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:25:03,168 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception and over retry limit, suppressing further error messages
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:25:05,460 ERROR org.apache.hadoop.hdfs.server.datanode.DataNode: java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.security.SecurityUtil.getLocalHostName(SecurityUtil.java:182)
+	at org.apache.hadoop.security.SecurityUtil.login(SecurityUtil.java:200)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.<init>(DataNode.java:296)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:1600)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1539)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1557)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.secureMain(DataNode.java:1683)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1700)
+
+2012-10-15 08:25:05,471 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at java.net.UnknownHostException: node: node
+************************************************************/
+2012-10-15 08:30:48,448 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = java.net.UnknownHostException: node: node
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:30:49,049 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:31:09,113 ERROR org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31: java.net.UnknownHostException: node: node
+2012-10-15 08:31:09,190 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:31:09,443 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:31:29,466 ERROR org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Error getting localhost name. Using 'localhost'...
+java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.getHostname(MetricsSystemImpl.java:463)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configureSystem(MetricsSystemImpl.java:394)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configure(MetricsSystemImpl.java:390)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.start(MetricsSystemImpl.java:152)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.init(MetricsSystemImpl.java:133)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.init(DefaultMetricsSystem.java:40)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.initialize(DefaultMetricsSystem.java:50)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1538)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1557)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.secureMain(DataNode.java:1683)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1700)
+2012-10-15 08:31:29,508 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:31:29,508 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-15 08:31:29,856 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:31:39,545 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception, retry in 4588ms
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:31:44,135 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception and over retry limit, suppressing further error messages
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:31:50,117 ERROR org.apache.hadoop.hdfs.server.datanode.DataNode: java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.security.SecurityUtil.getLocalHostName(SecurityUtil.java:182)
+	at org.apache.hadoop.security.SecurityUtil.login(SecurityUtil.java:200)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.<init>(DataNode.java:296)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.makeInstance(DataNode.java:1600)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.instantiateDataNode(DataNode.java:1539)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.createDataNode(DataNode.java:1557)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.secureMain(DataNode.java:1683)
+	at org.apache.hadoop.hdfs.server.datanode.DataNode.main(DataNode.java:1700)
+
+2012-10-15 08:31:50,120 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at java.net.UnknownHostException: node: node
+************************************************************/
+2012-10-15 08:37:59,130 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = node/192.168.0.199
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:37:59,369 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:37:59,393 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:37:59,451 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:37:59,453 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:37:59,453 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-15 08:37:59,538 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:38:00,165 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-10-15 08:38:00,182 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-10-15 08:38:00,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 6250000 bytes/s
+2012-10-15 08:38:10,248 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-15 08:38:10,298 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-15 08:38:10,308 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = true
+2012-10-15 08:38:10,309 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.datanode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-15 08:38:10,312 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-10-15 08:38:10,312 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-10-15 08:38:10,312 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-10-15 08:38:10,312 INFO org.mortbay.log: jetty-6.1.26
+2012-10-15 08:38:10,647 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-10-15 08:38:10,659 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-15 08:38:10,736 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2012-10-15 08:38:20,912 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:38:20,912 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:38:20,913 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:38:20,913 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:38:20,917 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8010 registered.
+2012-10-15 08:38:20,917 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8010 registered.
+2012-10-15 08:38:20,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(node:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)
+2012-10-15 08:38:20,919 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:38:20,927 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Block token params received from NN: keyUpdateInterval=600 min(s), tokenLifetime=600 min(s)
+2012-10-15 08:38:20,927 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-15 08:38:20,927 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2012-10-15 08:38:20,930 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 08:38:20,931 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(192.168.0.199:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)In DataNode.run, data = FSDataset{dirpath='/hadoop/hdfs/data/current'}
+2012-10-15 08:38:20,933 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8010: starting
+2012-10-15 08:38:20,933 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8010: starting
+2012-10-15 08:38:20,933 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8010: starting
+2012-10-15 08:38:20,933 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 120000msec
+2012-10-15 08:38:20,934 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-10-15 08:38:20,935 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8010: starting
+2012-10-15 08:38:20,938 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-15 08:38:20,967 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 35ms
+2012-10-15 08:38:20,988 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 49 ms
+2012-10-15 08:38:20,989 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-15 08:38:21,254 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2012-10-15 08:38:21,347 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8328574238893283103_2065
+2012-10-15 08:38:23,936 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-15 08:38:24,008 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 3 msec to generate and 71 msecs for RPC and NN processing
+2012-10-15 08:38:55,103 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-3563358970499170301_2067 src: /192.168.0.199:55146 dest: /192.168.0.199:50010
+2012-10-15 08:38:55,117 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.199:55146, dest: /192.168.0.199:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_-1747670267, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-3563358970499170301_2067, duration: 1123464
+2012-10-15 08:38:55,118 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-3563358970499170301_2067 terminating
+2012-10-15 08:39:00,027 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-534296865389675783_1713 file /hadoop/hdfs/data/current/subdir62/blk_-534296865389675783 for deletion
+2012-10-15 08:39:00,073 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-534296865389675783_1713 at file /hadoop/hdfs/data/current/subdir62/blk_-534296865389675783
+2012-10-15 08:40:54,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 08:40:54,115 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2012-10-15 08:40:57,107 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-15 08:40:57,161 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 54 msecs for RPC and NN processing
+2012-10-15 08:48:24,959 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3394584860106575905_2047
+2012-10-15 08:58:32,784 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8668335726311077239_2042
+2012-10-15 09:08:21,819 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4641437120037007500_2066
+2012-10-15 09:18:31,952 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7924799025804386284_2046
+2012-10-15 09:28:29,398 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2519792101875347790_2048
+2012-10-15 09:38:21,576 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2885241343270163410_2002
+2012-10-15 09:40:53,441 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 09:40:53,449 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 8ms
+2012-10-15 09:40:56,444 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-15 09:40:56,492 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 48 msecs for RPC and NN processing
+2012-10-15 09:48:21,432 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2631944146311734119_1988
+2012-10-15 09:58:21,529 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4132133245737620616_1998
+2012-10-15 10:08:30,020 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5765919907526015674_2043
+2012-10-15 10:18:21,882 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7306456967036032636_1904
+2012-10-15 10:28:21,840 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_630682961516306080_1988
+2012-10-15 10:38:41,348 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8694998993995600291_2050
+2012-10-15 10:40:53,048 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 10:40:53,058 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 10ms
+2012-10-15 10:40:56,054 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 10:40:56,099 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 44 msecs for RPC and NN processing
+2012-10-15 10:48:25,903 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_2349809487472644488_2052
+2012-10-15 10:58:45,411 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7471771257436953213_2040
+2012-10-15 11:08:21,887 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5219744114359361125_1903
+2012-10-15 11:18:42,430 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-2900725856047661860_2064
+2012-10-15 11:28:21,326 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7385460316361589744_2005
+2012-10-15 11:38:37,156 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-5394846582274489850_2056
+2012-10-15 11:40:55,553 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 11:40:55,564 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2012-10-15 11:40:58,552 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-15 11:40:58,598 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 46 msecs for RPC and NN processing
+2012-10-15 11:48:22,046 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7756905808107179625_1982
+2012-10-15 11:58:22,098 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6504587615620325381_1993
+2012-10-15 12:08:22,218 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3385267683421580542_1972
+2012-10-15 12:18:21,978 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3241982604707355013_1999
+2012-10-15 12:28:37,650 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1631284929181690157_2040
+2012-10-15 12:38:29,113 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8723097122421255878_2060
+2012-10-15 12:40:55,064 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 12:40:55,074 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 10ms
+2012-10-15 12:40:58,070 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-15 12:40:58,115 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 45 msecs for RPC and NN processing
+2012-10-15 12:48:33,698 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5732248002873361242_2045
+2012-10-15 12:58:23,478 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7206218730374122908_2061
+2012-10-15 13:08:21,388 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8351196325046321631_1994
+2012-10-15 13:18:22,077 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_1359553666658900799_2002
+2012-10-15 13:28:22,215 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3872983279669855198_1981
+2012-10-15 13:38:21,372 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3412931771887239943_2004
+2012-10-15 13:40:54,525 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 13:40:54,534 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 9ms
+2012-10-15 13:40:57,527 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 13:40:57,572 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 45 msecs for RPC and NN processing
+2012-10-15 13:48:22,161 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1533329116008463197_1971
+2012-10-15 13:58:22,135 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_5864719940008735679_1980
+2012-10-15 14:08:22,070 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3491289668821412449_2054
+2012-10-15 14:18:33,411 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8899580133826859607_2044
+2012-10-15 14:28:21,495 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_9170249929997454023_1938
+2012-10-15 14:38:21,605 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6808330609368887750_1991
+2012-10-15 14:40:53,772 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 14:40:53,786 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 14ms
+2012-10-15 14:40:56,773 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 14:40:56,819 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 46 msecs for RPC and NN processing
+2012-10-15 14:48:26,417 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4521828993311014819_2058
+2012-10-15 14:58:23,258 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8016702031651031221_2063
+2012-10-15 15:08:29,979 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6393263846983776132_2055
+2012-10-15 15:18:21,728 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_3666185211811080505_1996
+2012-10-15 15:28:21,797 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-1434122558599783773_1990
+2012-10-15 15:38:21,868 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6992744759600225466_2006
+2012-10-15 15:40:53,292 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 15:40:53,301 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 9ms
+2012-10-15 15:40:56,293 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-15 15:40:56,336 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 43 msecs for RPC and NN processing
+2012-10-15 15:48:26,648 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7789397144875829180_2059
+2012-10-15 15:58:27,799 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-6910120428028267645_2049
+2012-10-15 16:08:37,595 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_7288757249962609055_2053
+2012-10-15 16:18:21,504 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6031695112665830473_1937
+2012-10-15 16:28:37,571 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4856830814972694142_2051
+2012-10-15 16:38:30,967 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6926604467010238707_2041
+2012-10-15 16:40:55,420 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 16:40:55,431 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2012-10-15 16:40:58,428 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 16:40:58,470 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 42 msecs for RPC and NN processing
+2012-10-15 16:48:36,449 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_594973851682246594_2057
+2012-10-15 16:58:21,544 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8953339178598931622_2062
+2012-10-15 17:08:21,377 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-4870306930345527950_1986
+2012-10-15 17:18:21,592 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_203369385555694599_1997
+2012-10-15 17:28:21,711 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4590082948457714965_2000
+2012-10-15 17:38:21,864 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8203453643380650666_1984
+2012-10-15 17:40:55,023 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 17:40:55,036 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 13ms
+2012-10-15 17:40:58,023 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 17:40:58,196 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 173 msecs for RPC and NN processing
+2012-10-15 18:38:00,525 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeCommand action: DNA_ACCESSKEYUPDATE
+2012-10-15 18:38:00,525 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-15 18:40:54,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 18:40:54,641 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 13ms
+2012-10-15 18:40:57,630 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-15 18:40:57,673 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 42 msecs for RPC and NN processing
+2012-10-15 19:40:54,095 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 19:40:54,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 8ms
+2012-10-15 19:40:57,107 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 19:40:57,149 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 42 msecs for RPC and NN processing
+2012-10-15 20:40:53,382 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 20:40:53,388 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 6ms
+2012-10-15 20:40:56,383 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-15 20:40:56,427 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 44 msecs for RPC and NN processing
+2012-10-15 21:40:55,925 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 21:40:55,932 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 7ms
+2012-10-15 21:40:58,928 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-15 21:40:58,971 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 43 msecs for RPC and NN processing
+2012-10-15 22:40:55,567 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 22:40:55,580 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 13ms
+2012-10-15 22:40:58,569 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 22:40:58,611 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 41 msecs for RPC and NN processing
+2012-10-15 23:40:54,706 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-15 23:40:54,717 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 6ms
+2012-10-15 23:40:57,706 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-15 23:40:57,752 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 46 msecs for RPC and NN processing

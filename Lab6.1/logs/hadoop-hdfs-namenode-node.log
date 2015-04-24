@@ -1,0 +1,585 @@
+2012-10-15 08:10:46,406 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = java.net.UnknownHostException: node: node
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:10:47,000 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:11:07,069 ERROR org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31: java.net.UnknownHostException: node: node
+2012-10-15 08:11:07,151 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:11:07,438 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:11:27,463 ERROR org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Error getting localhost name. Using 'localhost'...
+java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.getHostname(MetricsSystemImpl.java:463)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configureSystem(MetricsSystemImpl.java:394)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configure(MetricsSystemImpl.java:390)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.start(MetricsSystemImpl.java:152)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.init(MetricsSystemImpl.java:133)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.init(DefaultMetricsSystem.java:40)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.initialize(DefaultMetricsSystem.java:50)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1255)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1265)
+2012-10-15 08:11:27,504 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:11:27,504 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-15 08:11:27,867 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:11:27,895 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-15 08:11:27,897 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-15 08:11:27,991 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-15 08:11:27,992 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-15 08:11:27,992 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-15 08:11:27,992 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-15 08:11:28,059 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-15 08:11:28,059 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-15 08:11:28,059 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-15 08:11:28,074 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-15 08:11:28,075 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-15 08:11:37,542 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception, retry in 7581ms
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:11:45,125 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception and over retry limit, suppressing further error messages
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:11:48,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-15 08:11:48,653 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-15 08:11:48,654 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-15 08:11:48,797 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 459
+2012-10-15 08:11:48,868 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-15 08:11:48,868 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 56004 loaded in 0 seconds.
+2012-10-15 08:11:49,000 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Invalid opcode, reached end of edit log Number of transactions found 336
+2012-10-15 08:11:49,000 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 1048580 edits # 336 loaded in 0 seconds.
+2012-10-15 08:11:49,031 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:11:49,084 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:11:49,084 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:11:49,128 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:11:49,164 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:11:49,165 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:11:49,220 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-15 08:11:49,220 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 21196 msecs
+2012-10-15 08:11:49,221 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-15 08:11:49,221 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-15 08:11:49,221 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-15 08:11:49,245 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-15 08:11:49,258 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-15 08:11:49,269 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-15 08:11:49,280 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-15 08:11:49,293 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicationMonitor thread received InterruptedException.java.lang.InterruptedException: sleep interrupted
+2012-10-15 08:11:49,294 INFO org.apache.hadoop.hdfs.server.namenode.DecommissionManager: Interrupted Monitor
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.hadoop.hdfs.server.namenode.DecommissionManager$Monitor.run(DecommissionManager.java:65)
+	at java.lang.Thread.run(Thread.java:662)
+2012-10-15 08:11:49,296 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-15 08:11:49,313 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:11:49,313 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:11:49,328 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.net.UnknownHostException: Invalid hostname for server: node
+	at org.apache.hadoop.ipc.Server.bind(Server.java:235)
+	at org.apache.hadoop.ipc.Server$Listener.<init>(Server.java:301)
+	at org.apache.hadoop.ipc.Server.<init>(Server.java:1483)
+	at org.apache.hadoop.ipc.RPC$Server.<init>(RPC.java:560)
+	at org.apache.hadoop.ipc.RPC.getServer(RPC.java:521)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:294)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:473)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1256)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1265)
+
+2012-10-15 08:11:49,329 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at java.net.UnknownHostException: node: node
+************************************************************/
+2012-10-15 08:24:02,757 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = java.net.UnknownHostException: node: node
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:24:02,924 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:24:22,955 ERROR org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31: java.net.UnknownHostException: node: node
+2012-10-15 08:24:22,973 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:24:23,035 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:24:43,055 ERROR org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Error getting localhost name. Using 'localhost'...
+java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.getHostname(MetricsSystemImpl.java:463)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configureSystem(MetricsSystemImpl.java:394)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configure(MetricsSystemImpl.java:390)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.start(MetricsSystemImpl.java:152)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.init(MetricsSystemImpl.java:133)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.init(DefaultMetricsSystem.java:40)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.initialize(DefaultMetricsSystem.java:50)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1255)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1265)
+2012-10-15 08:24:43,058 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:24:43,059 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-15 08:24:43,202 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:24:43,219 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-15 08:24:43,220 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-15 08:24:43,272 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-15 08:24:43,274 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-15 08:24:43,274 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-15 08:24:43,274 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-15 08:24:43,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-15 08:24:43,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-15 08:24:43,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-15 08:24:43,302 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-15 08:24:43,302 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-15 08:24:53,073 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception, retry in 8260ms
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:25:01,334 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception and over retry limit, suppressing further error messages
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:25:03,520 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-15 08:25:03,539 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-15 08:25:03,539 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-15 08:25:03,552 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 515
+2012-10-15 08:25:03,616 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-15 08:25:03,616 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 loaded in 0 seconds.
+2012-10-15 08:25:03,616 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Reading /hadoop/hdfs/namenode/current/edits: java.io.EOFException
+2012-10-15 08:25:03,616 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2012-10-15 08:25:03,631 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:25:03,704 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:25:03,705 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:25:03,746 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:25:03,803 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:25:03,803 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:25:03,853 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-15 08:25:03,854 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 20570 msecs
+2012-10-15 08:25:03,855 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-15 08:25:03,855 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-15 08:25:03,855 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-15 08:25:03,863 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-15 08:25:03,874 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-15 08:25:03,876 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-15 08:25:03,886 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-15 08:25:03,900 INFO org.apache.hadoop.hdfs.server.namenode.DecommissionManager: Interrupted Monitor
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.hadoop.hdfs.server.namenode.DecommissionManager$Monitor.run(DecommissionManager.java:65)
+	at java.lang.Thread.run(Thread.java:662)
+2012-10-15 08:25:03,900 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicationMonitor thread received InterruptedException.java.lang.InterruptedException: sleep interrupted
+2012-10-15 08:25:03,901 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-15 08:25:03,918 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:25:03,919 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:25:03,920 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.net.UnknownHostException: Invalid hostname for server: node
+	at org.apache.hadoop.ipc.Server.bind(Server.java:235)
+	at org.apache.hadoop.ipc.Server$Listener.<init>(Server.java:301)
+	at org.apache.hadoop.ipc.Server.<init>(Server.java:1483)
+	at org.apache.hadoop.ipc.RPC$Server.<init>(RPC.java:560)
+	at org.apache.hadoop.ipc.RPC.getServer(RPC.java:521)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:294)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:473)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1256)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1265)
+
+2012-10-15 08:25:03,923 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at java.net.UnknownHostException: node: node
+************************************************************/
+2012-10-15 08:30:48,442 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = java.net.UnknownHostException: node: node
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:30:49,050 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:31:09,110 ERROR org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31: java.net.UnknownHostException: node: node
+2012-10-15 08:31:09,192 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:31:09,440 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:31:29,463 ERROR org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Error getting localhost name. Using 'localhost'...
+java.net.UnknownHostException: node: node
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1360)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.getHostname(MetricsSystemImpl.java:463)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configureSystem(MetricsSystemImpl.java:394)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.configure(MetricsSystemImpl.java:390)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.start(MetricsSystemImpl.java:152)
+	at org.apache.hadoop.metrics2.impl.MetricsSystemImpl.init(MetricsSystemImpl.java:133)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.init(DefaultMetricsSystem.java:40)
+	at org.apache.hadoop.metrics2.lib.DefaultMetricsSystem.initialize(DefaultMetricsSystem.java:50)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1255)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1265)
+2012-10-15 08:31:29,504 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:31:29,505 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-15 08:31:29,782 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:31:29,827 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-15 08:31:29,827 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-15 08:31:29,928 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-15 08:31:29,930 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-15 08:31:29,930 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-15 08:31:29,930 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-15 08:31:29,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-15 08:31:29,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-15 08:31:29,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-15 08:31:29,989 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-15 08:31:29,989 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-15 08:31:39,546 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception, retry in 3399ms
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:31:42,947 ERROR org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Got sink exception and over retry limit, suppressing further error messages
+java.lang.IllegalArgumentException: unresolved address
+	at java.net.DatagramPacket.setSocketAddress(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:158)
+	at org.apache.hadoop.metrics2.sink.ganglia.AbstractGangliaSink.emitToGangliaHosts(AbstractGangliaSink.java:263)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink31.emitMetric(GangliaSink31.java:88)
+	at org.apache.hadoop.metrics2.sink.ganglia.GangliaSink30.putMetrics(GangliaSink30.java:120)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetrics(MetricsSinkAdapter.java:158)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:57)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$1.consume(MetricsSinkAdapter.java:55)
+	at org.apache.hadoop.metrics2.impl.SinkQueue.consumeAll(SinkQueue.java:82)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter.publishMetricsFromQueue(MetricsSinkAdapter.java:113)
+	at org.apache.hadoop.metrics2.impl.MetricsSinkAdapter$2.run(MetricsSinkAdapter.java:89)
+2012-10-15 08:31:50,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-15 08:31:50,611 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-15 08:31:50,611 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-15 08:31:50,759 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 515
+2012-10-15 08:31:50,863 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-15 08:31:50,864 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 loaded in 0 seconds.
+2012-10-15 08:31:50,881 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Reading /hadoop/hdfs/namenode/current/edits: java.io.EOFException
+2012-10-15 08:31:50,881 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2012-10-15 08:31:50,914 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:31:51,012 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:31:51,013 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:31:51,069 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:31:51,157 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:31:51,157 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:31:51,200 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-15 08:31:51,200 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 21228 msecs
+2012-10-15 08:31:51,202 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-15 08:31:51,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-15 08:31:51,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-15 08:31:51,238 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-15 08:31:51,250 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-15 08:31:51,254 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-15 08:31:51,264 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-15 08:31:51,278 INFO org.apache.hadoop.hdfs.server.namenode.DecommissionManager: Interrupted Monitor
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.hadoop.hdfs.server.namenode.DecommissionManager$Monitor.run(DecommissionManager.java:65)
+	at java.lang.Thread.run(Thread.java:662)
+2012-10-15 08:31:51,278 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicationMonitor thread received InterruptedException.java.lang.InterruptedException: sleep interrupted
+2012-10-15 08:31:51,279 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-15 08:31:51,293 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:31:51,293 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:31:51,323 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.net.UnknownHostException: Invalid hostname for server: node
+	at org.apache.hadoop.ipc.Server.bind(Server.java:235)
+	at org.apache.hadoop.ipc.Server$Listener.<init>(Server.java:301)
+	at org.apache.hadoop.ipc.Server.<init>(Server.java:1483)
+	at org.apache.hadoop.ipc.RPC$Server.<init>(RPC.java:560)
+	at org.apache.hadoop.ipc.RPC.getServer(RPC.java:521)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:294)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:473)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1256)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1265)
+
+2012-10-15 08:31:51,325 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at java.net.UnknownHostException: node: node
+************************************************************/
+2012-10-15 08:37:56,382 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = node/192.168.0.199
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-15 08:37:56,548 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-15 08:37:56,574 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-15 08:37:56,632 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-15 08:37:56,634 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-15 08:37:56,634 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-15 08:37:56,764 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-15 08:37:56,777 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-15 08:37:56,777 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-15 08:37:56,803 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-15 08:37:56,804 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-15 08:37:56,804 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-15 08:37:56,804 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-15 08:37:56,826 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-15 08:37:56,826 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-15 08:37:56,826 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-15 08:37:56,831 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-15 08:37:56,832 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-15 08:37:57,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-15 08:37:57,086 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-15 08:37:57,086 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-15 08:37:57,099 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 515
+2012-10-15 08:37:57,178 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-15 08:37:57,178 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 loaded in 0 seconds.
+2012-10-15 08:37:57,179 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Reading /hadoop/hdfs/namenode/current/edits: java.io.EOFException
+2012-10-15 08:37:57,179 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2012-10-15 08:37:57,199 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:37:57,300 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:37:57,300 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:37:57,348 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-15 08:37:57,472 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:37:57,472 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:37:57,491 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-15 08:37:57,491 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 676 msecs
+2012-10-15 08:37:57,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-15 08:37:57,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-15 08:37:57,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-15 08:37:57,508 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-15 08:37:57,525 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-15 08:37:57,526 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-15 08:37:57,531 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-15 08:37:57,581 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:37:57,582 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:37:57,584 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:37:57,585 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:37:57,588 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8020 registered.
+2012-10-15 08:37:57,588 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8020 registered.
+2012-10-15 08:37:57,590 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: node/192.168.0.199:8020
+2012-10-15 08:37:57,595 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-15 08:37:57,682 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-15 08:37:57,772 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-15 08:37:57,820 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = true
+2012-10-15 08:37:57,822 INFO org.apache.hadoop.http.HttpServer: Added filter 'SPNEGO' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+2012-10-15 08:37:57,823 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-15 08:37:57,833 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-10-15 08:37:57,840 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-10-15 08:37:57,840 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-10-15 08:37:57,840 INFO org.mortbay.log: jetty-6.1.26
+2012-10-15 08:37:58,382 WARN org.apache.hadoop.security.authentication.server.AuthenticationFilter: 'signature.secret' configuration not set, using a random value as secret
+2012-10-15 08:37:58,505 INFO org.mortbay.log: Started SelectChannelConnector@node:50070
+2012-10-15 08:37:58,505 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: node:50070
+2012-10-15 08:37:58,506 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-15 08:37:58,508 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-10-15 08:37:58,511 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-10-15 08:37:58,514 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-10-15 08:37:58,514 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-10-15 08:37:58,516 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-10-15 08:37:58,517 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-10-15 08:37:58,518 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-10-15 08:37:58,518 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-10-15 08:37:58,519 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-10-15 08:37:58,520 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-10-15 08:37:58,520 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-10-15 08:37:58,521 INFO org.apache.hadoop.ipc.Server: IPC Server handler 10 on 8020: starting
+2012-10-15 08:37:58,523 INFO org.apache.hadoop.ipc.Server: IPC Server handler 11 on 8020: starting
+2012-10-15 08:37:58,524 INFO org.apache.hadoop.ipc.Server: IPC Server handler 12 on 8020: starting
+2012-10-15 08:37:58,526 INFO org.apache.hadoop.ipc.Server: IPC Server handler 13 on 8020: starting
+2012-10-15 08:37:58,527 INFO org.apache.hadoop.ipc.Server: IPC Server handler 14 on 8020: starting
+2012-10-15 08:37:58,529 INFO org.apache.hadoop.ipc.Server: IPC Server handler 15 on 8020: starting
+2012-10-15 08:37:58,532 INFO org.apache.hadoop.ipc.Server: IPC Server handler 16 on 8020: starting
+2012-10-15 08:37:58,538 INFO org.apache.hadoop.ipc.Server: IPC Server handler 17 on 8020: starting
+2012-10-15 08:37:58,539 INFO org.apache.hadoop.ipc.Server: IPC Server handler 18 on 8020: starting
+2012-10-15 08:37:58,542 INFO org.apache.hadoop.ipc.Server: IPC Server handler 19 on 8020: starting
+2012-10-15 08:37:58,544 INFO org.apache.hadoop.ipc.Server: IPC Server handler 20 on 8020: starting
+2012-10-15 08:37:58,546 INFO org.apache.hadoop.ipc.Server: IPC Server handler 21 on 8020: starting
+2012-10-15 08:37:58,547 INFO org.apache.hadoop.ipc.Server: IPC Server handler 22 on 8020: starting
+2012-10-15 08:37:58,549 INFO org.apache.hadoop.ipc.Server: IPC Server handler 23 on 8020: starting
+2012-10-15 08:37:58,551 INFO org.apache.hadoop.ipc.Server: IPC Server handler 24 on 8020: starting
+2012-10-15 08:37:58,552 INFO org.apache.hadoop.ipc.Server: IPC Server handler 25 on 8020: starting
+2012-10-15 08:37:58,554 INFO org.apache.hadoop.ipc.Server: IPC Server handler 26 on 8020: starting
+2012-10-15 08:37:58,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 28 on 8020: starting
+2012-10-15 08:37:58,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 27 on 8020: starting
+2012-10-15 08:37:58,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 29 on 8020: starting
+2012-10-15 08:37:58,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 30 on 8020: starting
+2012-10-15 08:37:58,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 31 on 8020: starting
+2012-10-15 08:37:58,618 INFO org.apache.hadoop.ipc.Server: IPC Server handler 32 on 8020: starting
+2012-10-15 08:37:58,618 INFO org.apache.hadoop.ipc.Server: IPC Server handler 33 on 8020: starting
+2012-10-15 08:37:58,618 INFO org.apache.hadoop.ipc.Server: IPC Server handler 34 on 8020: starting
+2012-10-15 08:37:58,618 INFO org.apache.hadoop.ipc.Server: IPC Server handler 35 on 8020: starting
+2012-10-15 08:37:58,620 INFO org.apache.hadoop.ipc.Server: IPC Server handler 36 on 8020: starting
+2012-10-15 08:37:58,620 INFO org.apache.hadoop.ipc.Server: IPC Server handler 37 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 38 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 39 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 40 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 41 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 42 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 43 on 8020: starting
+2012-10-15 08:37:58,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 44 on 8020: starting
+2012-10-15 08:37:58,622 INFO org.apache.hadoop.ipc.Server: IPC Server handler 45 on 8020: starting
+2012-10-15 08:37:58,622 INFO org.apache.hadoop.ipc.Server: IPC Server handler 46 on 8020: starting
+2012-10-15 08:37:58,622 INFO org.apache.hadoop.ipc.Server: IPC Server handler 47 on 8020: starting
+2012-10-15 08:37:58,622 INFO org.apache.hadoop.ipc.Server: IPC Server handler 48 on 8020: starting
+2012-10-15 08:37:58,622 INFO org.apache.hadoop.ipc.Server: IPC Server handler 49 on 8020: starting
+2012-10-15 08:37:58,622 INFO org.apache.hadoop.ipc.Server: IPC Server handler 50 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 51 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 52 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 53 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 54 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 55 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 56 on 8020: starting
+2012-10-15 08:37:58,623 INFO org.apache.hadoop.ipc.Server: IPC Server handler 57 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 58 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 59 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 60 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 61 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 62 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 63 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 64 on 8020: starting
+2012-10-15 08:37:58,624 INFO org.apache.hadoop.ipc.Server: IPC Server handler 65 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 66 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 67 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 68 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 69 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 70 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 71 on 8020: starting
+2012-10-15 08:37:58,625 INFO org.apache.hadoop.ipc.Server: IPC Server handler 72 on 8020: starting
+2012-10-15 08:37:58,626 INFO org.apache.hadoop.ipc.Server: IPC Server handler 73 on 8020: starting
+2012-10-15 08:37:58,626 INFO org.apache.hadoop.ipc.Server: IPC Server handler 74 on 8020: starting
+2012-10-15 08:37:58,626 INFO org.apache.hadoop.ipc.Server: IPC Server handler 75 on 8020: starting
+2012-10-15 08:37:58,627 INFO org.apache.hadoop.ipc.Server: IPC Server handler 76 on 8020: starting
+2012-10-15 08:37:58,627 INFO org.apache.hadoop.ipc.Server: IPC Server handler 77 on 8020: starting
+2012-10-15 08:37:58,627 INFO org.apache.hadoop.ipc.Server: IPC Server handler 78 on 8020: starting
+2012-10-15 08:37:58,627 INFO org.apache.hadoop.ipc.Server: IPC Server handler 79 on 8020: starting
+2012-10-15 08:37:58,627 INFO org.apache.hadoop.ipc.Server: IPC Server handler 80 on 8020: starting
+2012-10-15 08:37:58,635 INFO org.apache.hadoop.ipc.Server: IPC Server handler 81 on 8020: starting
+2012-10-15 08:37:58,643 INFO org.apache.hadoop.ipc.Server: IPC Server handler 82 on 8020: starting
+2012-10-15 08:37:58,651 INFO org.apache.hadoop.ipc.Server: IPC Server handler 83 on 8020: starting
+2012-10-15 08:37:58,652 INFO org.apache.hadoop.ipc.Server: IPC Server handler 84 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 85 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 86 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 87 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 88 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 89 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 90 on 8020: starting
+2012-10-15 08:37:58,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 91 on 8020: starting
+2012-10-15 08:37:58,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 92 on 8020: starting
+2012-10-15 08:37:58,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 93 on 8020: starting
+2012-10-15 08:37:58,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 94 on 8020: starting
+2012-10-15 08:37:58,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 95 on 8020: starting
+2012-10-15 08:37:58,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 96 on 8020: starting
+2012-10-15 08:37:58,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 97 on 8020: starting
+2012-10-15 08:37:58,655 INFO org.apache.hadoop.ipc.Server: IPC Server handler 98 on 8020: starting
+2012-10-15 08:37:58,663 INFO org.apache.hadoop.ipc.Server: IPC Server handler 99 on 8020: starting
+2012-10-15 08:38:20,921 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.0.199:50010 storage DS-924087731-10.10.11.235-50010-1347411833414
+2012-10-15 08:38:20,924 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.0.199:50010
+2012-10-15 08:38:20,925 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-15 08:38:20,929 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 192.168.0.199:50010 0 blocks
+2012-10-15 08:38:24,005 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 29 seconds.
+2012-10-15 08:38:24,005 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 11 msecs
+2012-10-15 08:38:44,024 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 9 seconds.
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 343
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 343
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 16 msec
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 57 secs.
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-10-15 08:38:54,051 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 343 blocks
+2012-10-15 08:38:54,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 3 msec
+2012-10-15 08:38:54,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 0 msec
+2012-10-15 08:38:54,548 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2012-10-15 08:38:54,842 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-534296865389675783 is added to invalidSet of 192.168.0.199:50010
+2012-10-15 08:38:55,061 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/jobtracker.info. blk_-3563358970499170301_2067
+2012-10-15 08:38:55,117 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.199:50010 is added to blk_-3563358970499170301_2067 size 4
+2012-10-15 08:38:55,120 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/jobtracker.info from client DFSClient_-1747670267
+2012-10-15 08:38:55,120 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/jobtracker.info is closed by DFSClient_-1747670267
+2012-10-15 08:38:57,550 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.0.199:50010 to delete  blk_-534296865389675783_1713
+2012-10-15 08:40:57,160 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-15 08:42:59,372 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.199
+2012-10-15 08:42:59,372 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 8 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 6 SyncTimes(ms): 164 
+2012-10-15 08:42:59,529 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=577, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:42:59,531 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 577, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 08:43:00,594 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-15 08:43:00,659 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.199
+2012-10-15 08:43:00,659 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 18 
+2012-10-15 08:43:00,665 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-15 08:43:00,665 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-15 09:40:56,490 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 0 msecs
+2012-10-15 10:40:56,098 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 11:40:58,597 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-15 12:40:58,114 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 13:40:57,571 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-15 14:40:56,818 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 14:43:01,385 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.199
+2012-10-15 14:43:01,385 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-15 14:43:01,415 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 14:43:01,415 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 14:43:01,894 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-15 14:43:01,900 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.199
+2012-10-15 14:43:01,900 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 13 
+2012-10-15 14:43:01,935 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-15 14:43:01,935 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-15 15:40:56,336 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-15 16:40:58,469 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 17:40:58,196 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-15 18:38:00,010 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-15 18:40:57,673 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 19:40:57,149 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 20:40:56,426 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-15 20:43:06,831 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.199
+2012-10-15 20:43:06,831 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-15 20:43:06,848 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 20:43:06,848 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-15 20:43:07,342 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-15 20:43:07,347 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.199
+2012-10-15 20:43:07,347 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 95 
+2012-10-15 20:43:07,373 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-15 20:43:07,373 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-15 21:40:58,970 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 22:40:58,611 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-15 23:40:57,751 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 3 msecs

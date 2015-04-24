@@ -1,0 +1,14 @@
+1,CA
+4,SD
+1,NY
+6,CO
+7,NE
+6,CA
+3,CA
+3,FL
+4,WY
+2,IL
+9,OH
+5,CA
+5,NY
+4,FL

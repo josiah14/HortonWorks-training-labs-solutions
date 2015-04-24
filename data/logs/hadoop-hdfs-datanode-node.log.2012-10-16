@@ -1,0 +1,528 @@
+2012-10-16 00:40:54,250 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 00:40:54,261 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 10ms
+2012-10-16 00:40:57,251 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 00:40:57,308 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 56 msecs for RPC and NN processing
+2012-10-16 01:40:53,829 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 01:40:53,842 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 13ms
+2012-10-16 01:40:56,834 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 01:40:56,883 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 48 msecs for RPC and NN processing
+2012-10-16 02:40:54,023 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 02:40:54,030 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 7ms
+2012-10-16 02:40:56,665 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 02:40:56,831 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 165 msecs for RPC and NN processing
+2012-10-16 03:40:53,200 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 03:40:53,213 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 12ms
+2012-10-16 03:40:56,201 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 03:40:56,255 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 53 msecs for RPC and NN processing
+2012-10-16 04:38:04,451 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeCommand action: DNA_ACCESSKEYUPDATE
+2012-10-16 04:38:04,451 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-16 04:40:55,700 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 04:40:55,709 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 8ms
+2012-10-16 04:40:58,561 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 04:40:58,608 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 47 msecs for RPC and NN processing
+2012-10-16 05:40:55,162 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 05:40:55,173 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2012-10-16 05:40:55,207 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 05:40:55,213 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 6 msecs for RPC and NN processing
+2012-10-16 06:40:54,600 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 06:40:54,609 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 9ms
+2012-10-16 06:40:57,598 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 06:40:57,643 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 45 msecs for RPC and NN processing
+2012-10-16 07:40:53,829 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 07:40:53,836 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 7ms
+2012-10-16 07:40:56,813 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 07:40:56,855 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 42 msecs for RPC and NN processing
+2012-10-16 08:40:53,245 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 08:40:53,252 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 7ms
+2012-10-16 08:40:56,247 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 08:40:56,292 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 45 msecs for RPC and NN processing
+2012-10-16 09:40:55,479 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 09:40:55,489 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 10ms
+2012-10-16 09:40:58,479 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 09:40:58,525 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 46 msecs for RPC and NN processing
+2012-10-16 10:40:54,597 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 10:40:54,605 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 7ms
+2012-10-16 10:40:57,599 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 10:40:57,643 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 44 msecs for RPC and NN processing
+2012-10-16 11:40:54,051 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 11:40:54,061 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 10ms
+2012-10-16 11:40:57,052 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 11:40:57,095 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 43 msecs for RPC and NN processing
+2012-10-16 12:40:53,564 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 12:40:53,574 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 10ms
+2012-10-16 12:40:56,564 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 12:40:56,610 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 46 msecs for RPC and NN processing
+2012-10-16 13:40:53,206 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 13:40:53,217 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2012-10-16 13:40:56,215 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 13:40:56,263 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 48 msecs for RPC and NN processing
+2012-10-16 14:38:04,361 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeCommand action: DNA_ACCESSKEYUPDATE
+2012-10-16 14:38:04,361 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-16 14:40:55,505 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 14:40:55,513 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 8ms
+2012-10-16 14:40:58,507 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 14:40:58,550 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 43 msecs for RPC and NN processing
+2012-10-16 15:40:55,114 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 15:40:55,122 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 8ms
+2012-10-16 15:40:57,864 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 15:40:57,912 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 48 msecs for RPC and NN processing
+2012-10-16 16:19:07,776 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at node/192.168.0.199
+************************************************************/
+2012-10-16 16:29:45,860 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = node/10.0.2.15
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 16:29:47,305 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 16:29:47,451 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 16:29:47,988 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 16:29:48,001 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 16:29:48,001 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-16 16:29:48,272 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 16:29:49,861 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: node/10.0.2.15:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=50, sleepTime=1 SECONDS)
+2012-10-16 16:29:50,862 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: node/10.0.2.15:8020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=50, sleepTime=1 SECONDS)
+2012-10-16 16:29:51,604 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-10-16 16:29:51,631 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-10-16 16:29:51,633 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 6250000 bytes/s
+2012-10-16 16:30:01,690 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 16:30:01,741 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 16:30:01,751 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = true
+2012-10-16 16:30:01,752 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.datanode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 16:30:01,755 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-10-16 16:30:01,755 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-10-16 16:30:01,755 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-10-16 16:30:01,755 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 16:30:02,116 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-10-16 16:30:02,120 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 16:30:02,121 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2012-10-16 16:30:12,319 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:30:12,326 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:30:12,333 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:30:12,338 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:30:12,340 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8010 registered.
+2012-10-16 16:30:12,341 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8010 registered.
+2012-10-16 16:30:12,342 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(node:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)
+2012-10-16 16:30:12,346 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:30:12,353 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Block token params received from NN: keyUpdateInterval=600 min(s), tokenLifetime=600 min(s)
+2012-10-16 16:30:12,353 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-16 16:30:12,353 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2012-10-16 16:30:12,356 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 16:30:12,367 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(10.0.2.15:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)In DataNode.run, data = FSDataset{dirpath='/hadoop/hdfs/data/current'}
+2012-10-16 16:30:12,381 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 16:30:12,382 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8010: starting
+2012-10-16 16:30:12,383 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8010: starting
+2012-10-16 16:30:12,383 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8010: starting
+2012-10-16 16:30:12,383 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 120000msec
+2012-10-16 16:30:12,398 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-10-16 16:30:12,408 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8010: starting
+2012-10-16 16:30:12,415 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 59ms
+2012-10-16 16:30:12,443 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 41 ms
+2012-10-16 16:30:12,446 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 3 ms
+2012-10-16 16:30:12,863 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2012-10-16 16:30:12,949 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-3563358970499170301_2067
+2012-10-16 16:31:06,428 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-16 16:31:06,489 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 61 msecs for RPC and NN processing
+2012-10-16 16:31:37,232 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-7102792137304081781_2068 src: /10.0.2.15:36054 dest: /10.0.2.15:50010
+2012-10-16 16:31:37,247 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /10.0.2.15:36054, dest: /10.0.2.15:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_-1906848045, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-7102792137304081781_2068, duration: 1770670
+2012-10-16 16:31:37,248 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-7102792137304081781_2068 terminating
+2012-10-16 16:31:39,447 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-3563358970499170301_2067 file /hadoop/hdfs/data/current/subdir62/blk_-3563358970499170301 for deletion
+2012-10-16 16:31:39,488 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-3563358970499170301_2067 at file /hadoop/hdfs/data/current/subdir62/blk_-3563358970499170301
+2012-10-16 16:41:06,748 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 16:41:06,760 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 12ms
+2012-10-16 16:41:09,748 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 16:41:09,801 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 0 msec to generate and 53 msecs for RPC and NN processing
+2012-10-16 17:41:05,873 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 17:41:05,885 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 12ms
+2012-10-16 17:41:08,874 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 17:41:08,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 1 msec to generate and 44 msecs for RPC and NN processing
+2012-10-16 18:37:43,804 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at node/10.0.2.15
+************************************************************/
+2012-10-16 18:42:40,837 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = node/192.168.0.193
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 18:42:41,837 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 18:42:41,972 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 18:42:42,381 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 18:42:42,401 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 18:42:42,401 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-16 18:42:42,545 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 18:42:44,308 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: node/192.168.0.193:8020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=50, sleepTime=1 SECONDS)
+2012-10-16 18:42:45,310 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: node/192.168.0.193:8020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=50, sleepTime=1 SECONDS)
+2012-10-16 18:42:46,415 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-10-16 18:42:46,434 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-10-16 18:42:46,436 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 6250000 bytes/s
+2012-10-16 18:42:56,497 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 18:42:56,553 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 18:42:56,564 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = true
+2012-10-16 18:42:56,566 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.datanode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 18:42:56,569 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-10-16 18:42:56,569 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-10-16 18:42:56,569 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-10-16 18:42:56,569 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 18:42:56,928 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-10-16 18:42:56,933 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 18:42:56,933 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2012-10-16 18:43:07,156 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:43:07,161 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8010 registered.
+2012-10-16 18:43:07,161 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8010 registered.
+2012-10-16 18:43:07,168 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(node:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)
+2012-10-16 18:43:07,156 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:43:07,157 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:43:07,157 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:43:07,183 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:43:07,183 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Block token params received from NN: keyUpdateInterval=600 min(s), tokenLifetime=600 min(s)
+2012-10-16 18:43:07,183 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-16 18:43:07,184 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2012-10-16 18:43:07,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 18:43:07,206 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(192.168.0.193:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)In DataNode.run, data = FSDataset{dirpath='/hadoop/hdfs/data/current'}
+2012-10-16 18:43:07,224 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 18:43:07,226 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8010: starting
+2012-10-16 18:43:07,226 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8010: starting
+2012-10-16 18:43:07,226 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8010: starting
+2012-10-16 18:43:07,226 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 120000msec
+2012-10-16 18:43:07,230 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 43ms
+2012-10-16 18:43:07,235 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8010: starting
+2012-10-16 18:43:07,235 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-10-16 18:43:07,271 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 26 ms
+2012-10-16 18:43:07,281 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 10 ms
+2012-10-16 18:43:07,581 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2012-10-16 18:43:07,732 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-7102792137304081781_2068
+2012-10-16 18:45:04,283 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 2 ms
+2012-10-16 18:45:04,351 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 68 msecs for RPC and NN processing
+2012-10-16 18:45:34,949 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_6093449676356896052_2069 src: /192.168.0.193:59884 dest: /192.168.0.193:50010
+2012-10-16 18:45:34,964 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59884, dest: /192.168.0.193:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_-1449044530, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_6093449676356896052_2069, duration: 1904749
+2012-10-16 18:45:34,965 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_6093449676356896052_2069 terminating
+2012-10-16 18:45:37,374 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-7102792137304081781_2068 file /hadoop/hdfs/data/current/subdir62/blk_-7102792137304081781 for deletion
+2012-10-16 18:45:37,376 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-7102792137304081781_2068 at file /hadoop/hdfs/data/current/subdir62/blk_-7102792137304081781
+2012-10-16 18:46:19,613 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at node/192.168.0.193
+************************************************************/
+2012-10-16 18:46:49,886 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = node/192.168.0.193
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 18:46:50,161 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 18:46:50,187 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 18:46:50,247 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 18:46:50,318 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 18:46:50,318 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-16 18:46:50,467 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 18:46:51,125 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-10-16 18:46:51,137 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-10-16 18:46:51,140 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 6250000 bytes/s
+2012-10-16 18:47:01,199 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 18:47:01,249 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 18:47:01,260 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = true
+2012-10-16 18:47:01,261 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.datanode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 18:47:01,263 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-10-16 18:47:01,263 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-10-16 18:47:01,263 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-10-16 18:47:01,263 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 18:47:01,555 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-10-16 18:47:01,560 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 18:47:01,560 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2012-10-16 18:47:11,786 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:47:11,786 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:47:11,787 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:47:11,787 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:47:11,790 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8010 registered.
+2012-10-16 18:47:11,790 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8010 registered.
+2012-10-16 18:47:11,791 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(node:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)
+2012-10-16 18:47:11,792 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:47:11,800 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Block token params received from NN: keyUpdateInterval=600 min(s), tokenLifetime=600 min(s)
+2012-10-16 18:47:11,800 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-16 18:47:11,800 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2012-10-16 18:47:11,804 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 18:47:11,804 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(192.168.0.193:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)In DataNode.run, data = FSDataset{dirpath='/hadoop/hdfs/data/current'}
+2012-10-16 18:47:11,808 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8010: starting
+2012-10-16 18:47:11,809 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8010: starting
+2012-10-16 18:47:11,809 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8010: starting
+2012-10-16 18:47:11,809 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 120000msec
+2012-10-16 18:47:11,814 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-10-16 18:47:11,812 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8010: starting
+2012-10-16 18:47:11,814 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 18:47:11,847 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 43ms
+2012-10-16 18:47:11,852 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 38 ms
+2012-10-16 18:47:11,864 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 12 ms
+2012-10-16 18:47:11,934 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2012-10-16 18:47:11,969 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6093449676356896052_2069
+2012-10-16 18:47:56,844 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 18:47:56,904 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 59 msecs for RPC and NN processing
+2012-10-16 18:48:28,107 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_2572900163852925077_2070 src: /192.168.0.193:59906 dest: /192.168.0.193:50010
+2012-10-16 18:48:28,121 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59906, dest: /192.168.0.193:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_335026442, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_2572900163852925077_2070, duration: 1070670
+2012-10-16 18:48:28,122 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_2572900163852925077_2070 terminating
+2012-10-16 18:48:32,861 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_6093449676356896052_2069 file /hadoop/hdfs/data/current/subdir62/blk_6093449676356896052 for deletion
+2012-10-16 18:48:32,863 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_6093449676356896052_2069 at file /hadoop/hdfs/data/current/subdir62/blk_6093449676356896052
+2012-10-16 18:49:35,916 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 18:49:35,928 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 11ms
+2012-10-16 18:49:38,918 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 18:49:38,970 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 343 blocks took 2 msec to generate and 51 msecs for RPC and NN processing
+2012-10-16 18:50:09,486 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-8970046310151631757_2071 src: /192.168.0.193:59913 dest: /192.168.0.193:50010
+2012-10-16 18:50:09,491 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59913, dest: /192.168.0.193:50010, bytes: 7139, op: HDFS_WRITE, cliID: DFSClient_729780322, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-8970046310151631757_2071, duration: 2032402
+2012-10-16 18:50:09,492 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-8970046310151631757_2071 terminating
+2012-10-16 18:50:33,551 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_8834554234472461769_2072 src: /192.168.0.193:59917 dest: /192.168.0.193:50010
+2012-10-16 18:50:33,555 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59917, dest: /192.168.0.193:50010, bytes: 7139, op: HDFS_WRITE, cliID: DFSClient_536410304, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_8834554234472461769_2072, duration: 1883799
+2012-10-16 18:50:33,556 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_8834554234472461769_2072 terminating
+2012-10-16 18:55:40,730 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_6704365399391427194_2073 src: /192.168.0.193:59924 dest: /192.168.0.193:50010
+2012-10-16 18:55:40,734 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59924, dest: /192.168.0.193:50010, bytes: 7158, op: HDFS_WRITE, cliID: DFSClient_982602432, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_6704365399391427194_2073, duration: 1154470
+2012-10-16 18:55:40,734 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_6704365399391427194_2073 terminating
+2012-10-16 19:24:22,569 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down DataNode at node/192.168.0.193
+************************************************************/
+2012-10-16 19:25:02,539 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting DataNode
+STARTUP_MSG:   host = node/192.168.0.193
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 19:25:02,776 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 19:25:02,802 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 19:25:02,857 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 19:25:02,858 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 19:25:02,858 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: DataNode metrics system started
+2012-10-16 19:25:02,944 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 19:25:03,552 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Registered FSDatasetStatusMBean
+2012-10-16 19:25:03,564 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Opened info server at 50010
+2012-10-16 19:25:03,567 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Balancing bandwith is 6250000 bytes/s
+2012-10-16 19:25:13,624 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 19:25:13,683 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 19:25:13,693 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dfs.webhdfs.enabled = true
+2012-10-16 19:25:13,694 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.datanode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 19:25:13,697 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50075
+2012-10-16 19:25:13,697 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50075 webServer.getConnectors()[0].getLocalPort() returned 50075
+2012-10-16 19:25:13,697 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50075
+2012-10-16 19:25:13,697 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 19:25:13,939 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50075
+2012-10-16 19:25:13,946 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 19:25:13,947 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source DataNode registered.
+2012-10-16 19:25:24,206 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:24,206 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:24,206 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:24,207 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:24,210 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8010 registered.
+2012-10-16 19:25:24,211 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8010 registered.
+2012-10-16 19:25:24,212 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: dnRegistration = DatanodeRegistration(node:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)
+2012-10-16 19:25:24,212 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:24,220 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Block token params received from NN: keyUpdateInterval=600 min(s), tokenLifetime=600 min(s)
+2012-10-16 19:25:24,220 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Setting block keys
+2012-10-16 19:25:24,221 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished generating blocks being written report for 1 volumes in 0 seconds
+2012-10-16 19:25:24,224 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 19:25:24,224 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: DatanodeRegistration(192.168.0.193:50010, storageID=DS-924087731-10.10.11.235-50010-1347411833414, infoPort=50075, ipcPort=8010)In DataNode.run, data = FSDataset{dirpath='/hadoop/hdfs/data/current'}
+2012-10-16 19:25:24,234 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8010: starting
+2012-10-16 19:25:24,241 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 19:25:24,245 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 21ms
+2012-10-16 19:25:24,248 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8010: starting
+2012-10-16 19:25:24,250 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8010: starting
+2012-10-16 19:25:24,250 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: using BLOCKREPORT_INTERVAL of 3600000msec Initial delay: 120000msec
+2012-10-16 19:25:24,255 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting Periodic block scanner.
+2012-10-16 19:25:24,255 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8010: starting
+2012-10-16 19:25:24,289 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Generated rough (lockless) block report in 32 ms
+2012-10-16 19:25:24,291 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 19:25:24,367 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2012-10-16 19:25:24,401 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_8834554234472461769_2072
+2012-10-16 19:26:42,296 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 19:26:42,368 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 346 blocks took 1 msec to generate and 72 msecs for RPC and NN processing
+2012-10-16 19:27:13,064 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-960412235856489687_2074 src: /192.168.0.193:59946 dest: /192.168.0.193:50010
+2012-10-16 19:27:13,079 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59946, dest: /192.168.0.193:50010, bytes: 4, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-960412235856489687_2074, duration: 1174301
+2012-10-16 19:27:13,079 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-960412235856489687_2074 terminating
+2012-10-16 19:27:15,310 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_2572900163852925077_2070 file /hadoop/hdfs/data/current/subdir62/blk_2572900163852925077 for deletion
+2012-10-16 19:27:15,311 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_2572900163852925077_2070 at file /hadoop/hdfs/data/current/subdir62/blk_2572900163852925077
+2012-10-16 19:27:28,733 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-6736396524838948318_2075 src: /192.168.0.193:59951 dest: /192.168.0.193:50010
+2012-10-16 19:27:28,738 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59951, dest: /192.168.0.193:50010, bytes: 7158, op: HDFS_WRITE, cliID: DFSClient_-2015564802, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-6736396524838948318_2075, duration: 1149162
+2012-10-16 19:27:28,739 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-6736396524838948318_2075 terminating
+2012-10-16 19:34:31,032 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_3631892580873333702_2076 src: /192.168.0.193:59958 dest: /192.168.0.193:50010
+2012-10-16 19:34:31,114 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59958, dest: /192.168.0.193:50010, bytes: 832960, op: HDFS_WRITE, cliID: DFSClient_-1571537061, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_3631892580873333702_2076, duration: 79435754
+2012-10-16 19:34:31,114 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_3631892580873333702_2076 terminating
+2012-10-16 19:34:31,249 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-3699317936456189216_2077 src: /192.168.0.193:59959 dest: /192.168.0.193:50010
+2012-10-16 19:34:31,251 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59959, dest: /192.168.0.193:50010, bytes: 7158, op: HDFS_WRITE, cliID: DFSClient_-1571537061, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-3699317936456189216_2077, duration: 1241341
+2012-10-16 19:34:31,252 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-3699317936456189216_2077 terminating
+2012-10-16 19:35:25,070 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_6704365399391427194_2073
+2012-10-16 19:45:25,060 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-8970046310151631757_2071
+2012-10-16 19:55:29,216 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_5453830962248227117_2078 src: /192.168.0.193:59969 dest: /192.168.0.193:50010
+2012-10-16 19:55:29,313 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59969, dest: /192.168.0.193:50010, bytes: 832960, op: HDFS_WRITE, cliID: DFSClient_1047997496, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_5453830962248227117_2078, duration: 94176535
+2012-10-16 19:55:29,313 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_5453830962248227117_2078 terminating
+2012-10-16 19:55:29,386 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-6271181064914566341_2079 src: /192.168.0.193:59970 dest: /192.168.0.193:50010
+2012-10-16 19:55:29,389 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:59970, dest: /192.168.0.193:50010, bytes: 7158, op: HDFS_WRITE, cliID: DFSClient_1047997496, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-6271181064914566341_2079, duration: 1079050
+2012-10-16 19:55:29,389 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-6271181064914566341_2079 terminating
+2012-10-16 20:06:01,453 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 20:06:01,461 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 8ms
+2012-10-16 20:06:04,456 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 0 ms
+2012-10-16 20:06:04,502 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 351 blocks took 1 msec to generate and 45 msecs for RPC and NN processing
+2012-10-16 21:01:08,256 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_2713130382436764513_2080 src: /192.168.0.193:60133 dest: /192.168.0.193:50010
+2012-10-16 21:01:08,264 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60133, dest: /192.168.0.193:50010, bytes: 7158, op: HDFS_WRITE, cliID: DFSClient_434336768, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_2713130382436764513_2080, duration: 1623184
+2012-10-16 21:01:08,264 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_2713130382436764513_2080 terminating
+2012-10-16 21:06:03,268 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 21:06:03,280 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 12ms
+2012-10-16 21:06:06,275 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 21:06:06,319 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 352 blocks took 2 msec to generate and 44 msecs for RPC and NN processing
+2012-10-16 21:12:49,945 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_4452890872411494395_2081 src: /192.168.0.193:60172 dest: /192.168.0.193:50010
+2012-10-16 21:12:49,955 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60172, dest: /192.168.0.193:50010, bytes: 7158, op: HDFS_WRITE, cliID: DFSClient_1691841989, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_4452890872411494395_2081, duration: 364247
+2012-10-16 21:12:49,955 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_4452890872411494395_2081 terminating
+2012-10-16 21:16:13,930 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_4584670038644173132_2082 src: /192.168.0.193:60205 dest: /192.168.0.193:50010
+2012-10-16 21:16:13,934 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60205, dest: /192.168.0.193:50010, bytes: 7173, op: HDFS_WRITE, cliID: DFSClient_-2083710898, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_4584670038644173132_2082, duration: 1877934
+2012-10-16 21:16:13,934 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_4584670038644173132_2082 terminating
+2012-10-16 21:16:14,389 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-4363366356951966289_2083 src: /192.168.0.193:60208 dest: /192.168.0.193:50010
+2012-10-16 21:16:14,391 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60208, dest: /192.168.0.193:50010, bytes: 163, op: HDFS_WRITE, cliID: DFSClient_-2083710898, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-4363366356951966289_2083, duration: 994972
+2012-10-16 21:16:14,392 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-4363366356951966289_2083 terminating
+2012-10-16 21:16:14,405 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-4825215796737921274_2084 src: /192.168.0.193:60209 dest: /192.168.0.193:50010
+2012-10-16 21:16:14,410 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60209, dest: /192.168.0.193:50010, bytes: 16, op: HDFS_WRITE, cliID: DFSClient_-2083710898, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-4825215796737921274_2084, duration: 2625698
+2012-10-16 21:16:14,410 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-4825215796737921274_2084 terminating
+2012-10-16 21:16:14,631 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_8106071779253445256_2085 src: /192.168.0.193:60210 dest: /192.168.0.193:50010
+2012-10-16 21:16:14,640 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60210, dest: /192.168.0.193:50010, bytes: 26415, op: HDFS_WRITE, cliID: DFSClient_-2083710898, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_8106071779253445256_2085, duration: 5797766
+2012-10-16 21:16:14,641 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_8106071779253445256_2085 terminating
+2012-10-16 21:16:14,673 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60212, bytes: 26623, op: HDFS_READ, cliID: DFSClient_-462085247, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_8106071779253445256_2085, duration: 882681
+2012-10-16 21:16:14,716 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_1697305413236747350_2086 src: /192.168.0.193:60214 dest: /192.168.0.193:50010
+2012-10-16 21:16:14,719 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60214, dest: /192.168.0.193:50010, bytes: 85, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_1697305413236747350_2086, duration: 1023743
+2012-10-16 21:16:14,719 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_1697305413236747350_2086 terminating
+2012-10-16 21:16:18,395 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_3806607055277730436_2087 src: /192.168.0.193:60215 dest: /192.168.0.193:50010
+2012-10-16 21:16:18,398 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60215, dest: /192.168.0.193:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_3806607055277730436_2087, duration: 265083
+2012-10-16 21:16:18,399 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_3806607055277730436_2087 terminating
+2012-10-16 21:16:18,411 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60216, bytes: 20, op: HDFS_READ, cliID: DFSClient_-462085247, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-4825215796737921274_2084, duration: 235196
+2012-10-16 21:16:18,688 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60218, bytes: 110, op: HDFS_READ, cliID: DFSClient_-1049836291, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_3806607055277730436_2087, duration: 212849
+2012-10-16 21:16:18,712 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60220, bytes: 26623, op: HDFS_READ, cliID: DFSClient_337335659, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_8106071779253445256_2085, duration: 9445531
+2012-10-16 21:16:18,839 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60221, bytes: 7233, op: HDFS_READ, cliID: DFSClient_337335659, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_4584670038644173132_2082, duration: 359777
+2012-10-16 21:16:23,020 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60232, bytes: 167, op: HDFS_READ, cliID: DFSClient_attempt_201210161925_0006_m_000000_0, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-4363366356951966289_2083, duration: 848883
+2012-10-16 21:16:23,480 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60234, bytes: 167, op: HDFS_READ, cliID: DFSClient_attempt_201210161925_0006_m_000001_0, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-4363366356951966289_2083, duration: 6654468
+2012-10-16 21:16:31,362 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_2672967402522240888_2088 src: /192.168.0.193:60239 dest: /192.168.0.193:50010
+2012-10-16 21:16:31,374 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60239, dest: /192.168.0.193:50010, bytes: 28, op: HDFS_WRITE, cliID: DFSClient_attempt_201210161925_0006_r_000000_0, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_2672967402522240888_2088, duration: 2794134
+2012-10-16 21:16:31,374 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_2672967402522240888_2088 terminating
+2012-10-16 21:16:34,267 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-7212530411071825458_2089 src: /192.168.0.193:60243 dest: /192.168.0.193:50010
+2012-10-16 21:16:34,268 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60243, dest: /192.168.0.193:50010, bytes: 15949, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-7212530411071825458_2089, duration: 721230
+2012-10-16 21:16:34,269 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-7212530411071825458_2089 terminating
+2012-10-16 21:16:34,290 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_2516654948780337184_2090 src: /192.168.0.193:60244 dest: /192.168.0.193:50010
+2012-10-16 21:16:34,292 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60244, dest: /192.168.0.193:50010, bytes: 26413, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_2516654948780337184_2090, duration: 536034
+2012-10-16 21:16:34,292 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_2516654948780337184_2090 terminating
+2012-10-16 21:16:36,617 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-8732384480881790172_1703 file /hadoop/hdfs/data/current/subdir33/blk_-8732384480881790172 for deletion
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-8616422123691357408_1373 file /hadoop/hdfs/data/current/subdir45/blk_-8616422123691357408 for deletion
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-8732384480881790172_1703 at file /hadoop/hdfs/data/current/subdir33/blk_-8732384480881790172
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-8410885394400129375_1350 file /hadoop/hdfs/data/current/subdir45/blk_-8410885394400129375 for deletion
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-8616422123691357408_1373 at file /hadoop/hdfs/data/current/subdir45/blk_-8616422123691357408
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-8167272108658986868_1558 file /hadoop/hdfs/data/current/subdir16/blk_-8167272108658986868 for deletion
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-8410885394400129375_1350 at file /hadoop/hdfs/data/current/subdir45/blk_-8410885394400129375
+2012-10-16 21:16:36,618 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-5219232734418369558_1707 file /hadoop/hdfs/data/current/subdir33/blk_-5219232734418369558 for deletion
+2012-10-16 21:16:36,619 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-8167272108658986868_1558 at file /hadoop/hdfs/data/current/subdir16/blk_-8167272108658986868
+2012-10-16 21:16:36,619 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-4825215796737921274_2084 file /hadoop/hdfs/data/current/subdir62/blk_-4825215796737921274 for deletion
+2012-10-16 21:16:36,619 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-5219232734418369558_1707 at file /hadoop/hdfs/data/current/subdir33/blk_-5219232734418369558
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-4522709228940538835_1364 file /hadoop/hdfs/data/current/subdir45/blk_-4522709228940538835 for deletion
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-4825215796737921274_2084 at file /hadoop/hdfs/data/current/subdir62/blk_-4825215796737921274
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-4363366356951966289_2083 file /hadoop/hdfs/data/current/subdir62/blk_-4363366356951966289 for deletion
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-4522709228940538835_1364 at file /hadoop/hdfs/data/current/subdir45/blk_-4522709228940538835
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-4030894442033398931_1706 file /hadoop/hdfs/data/current/subdir33/blk_-4030894442033398931 for deletion
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-4363366356951966289_2083 at file /hadoop/hdfs/data/current/subdir62/blk_-4363366356951966289
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-3559924037265749434_1206 file /hadoop/hdfs/data/current/subdir62/blk_-3559924037265749434 for deletion
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-4030894442033398931_1706 at file /hadoop/hdfs/data/current/subdir33/blk_-4030894442033398931
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-2409167995852183568_1543 file /hadoop/hdfs/data/current/subdir16/blk_-2409167995852183568 for deletion
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-3559924037265749434_1206 at file /hadoop/hdfs/data/current/subdir62/blk_-3559924037265749434
+2012-10-16 21:16:36,620 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-1721270984451210852_1396 file /hadoop/hdfs/data/current/subdir32/blk_-1721270984451210852 for deletion
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-2409167995852183568_1543 at file /hadoop/hdfs/data/current/subdir16/blk_-2409167995852183568
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-1148693227269464812_1397 file /hadoop/hdfs/data/current/subdir32/blk_-1148693227269464812 for deletion
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-1721270984451210852_1396 at file /hadoop/hdfs/data/current/subdir32/blk_-1721270984451210852
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-1044688211304585931_1539 file /hadoop/hdfs/data/current/subdir16/blk_-1044688211304585931 for deletion
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-1148693227269464812_1397 at file /hadoop/hdfs/data/current/subdir32/blk_-1148693227269464812
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-143309709859218746_1354 file /hadoop/hdfs/data/current/subdir45/blk_-143309709859218746 for deletion
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-1044688211304585931_1539 at file /hadoop/hdfs/data/current/subdir16/blk_-1044688211304585931
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_1697305413236747350_2086 file /hadoop/hdfs/data/current/subdir62/blk_1697305413236747350 for deletion
+2012-10-16 21:16:36,621 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-143309709859218746_1354 at file /hadoop/hdfs/data/current/subdir45/blk_-143309709859218746
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_2374156196602564485_1363 file /hadoop/hdfs/data/current/subdir45/blk_2374156196602564485 for deletion
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_1697305413236747350_2086 at file /hadoop/hdfs/data/current/subdir62/blk_1697305413236747350
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_2374156196602564485_1363 at file /hadoop/hdfs/data/current/subdir45/blk_2374156196602564485
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_3102975236488408916_1702 file /hadoop/hdfs/data/current/subdir33/blk_3102975236488408916 for deletion
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_3748273733440715325_1349 file /hadoop/hdfs/data/current/subdir45/blk_3748273733440715325 for deletion
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_3102975236488408916_1702 at file /hadoop/hdfs/data/current/subdir33/blk_3102975236488408916
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_3806607055277730436_2087 file /hadoop/hdfs/data/current/subdir62/blk_3806607055277730436 for deletion
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_3748273733440715325_1349 at file /hadoop/hdfs/data/current/subdir45/blk_3748273733440715325
+2012-10-16 21:16:36,622 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_4325441035350016279_1540 file /hadoop/hdfs/data/current/subdir16/blk_4325441035350016279 for deletion
+2012-10-16 21:16:36,623 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_3806607055277730436_2087 at file /hadoop/hdfs/data/current/subdir62/blk_3806607055277730436
+2012-10-16 21:16:36,623 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_4584670038644173132_2082 file /hadoop/hdfs/data/current/subdir62/blk_4584670038644173132 for deletion
+2012-10-16 21:16:36,623 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_4325441035350016279_1540 at file /hadoop/hdfs/data/current/subdir16/blk_4325441035350016279
+2012-10-16 21:16:36,626 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_4745761630882962238_1207 file /hadoop/hdfs/data/current/subdir62/blk_4745761630882962238 for deletion
+2012-10-16 21:16:36,626 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_5976484890468320469_1381 file /hadoop/hdfs/data/current/subdir45/blk_5976484890468320469 for deletion
+2012-10-16 21:16:36,626 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_6079452357049095190_1353 file /hadoop/hdfs/data/current/subdir45/blk_6079452357049095190 for deletion
+2012-10-16 21:16:36,626 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_6326859958666658260_1559 file /hadoop/hdfs/data/current/subdir16/blk_6326859958666658260 for deletion
+2012-10-16 21:16:36,626 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_6779237420329679461_1382 file /hadoop/hdfs/data/current/subdir45/blk_6779237420329679461 for deletion
+2012-10-16 21:16:36,627 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_7044868409691193644_1372 file /hadoop/hdfs/data/current/subdir45/blk_7044868409691193644 for deletion
+2012-10-16 21:16:36,627 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_7128430082006462017_1544 file /hadoop/hdfs/data/current/subdir16/blk_7128430082006462017 for deletion
+2012-10-16 21:16:36,627 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_8106071779253445256_2085 file /hadoop/hdfs/data/current/subdir62/blk_8106071779253445256 for deletion
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_4584670038644173132_2082 at file /hadoop/hdfs/data/current/subdir62/blk_4584670038644173132
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_4745761630882962238_1207 at file /hadoop/hdfs/data/current/subdir62/blk_4745761630882962238
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_5976484890468320469_1381 at file /hadoop/hdfs/data/current/subdir45/blk_5976484890468320469
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_6079452357049095190_1353 at file /hadoop/hdfs/data/current/subdir45/blk_6079452357049095190
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_6326859958666658260_1559 at file /hadoop/hdfs/data/current/subdir16/blk_6326859958666658260
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_6779237420329679461_1382 at file /hadoop/hdfs/data/current/subdir45/blk_6779237420329679461
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_7044868409691193644_1372 at file /hadoop/hdfs/data/current/subdir45/blk_7044868409691193644
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_7128430082006462017_1544 at file /hadoop/hdfs/data/current/subdir16/blk_7128430082006462017
+2012-10-16 21:16:36,628 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_8106071779253445256_2085 at file /hadoop/hdfs/data/current/subdir62/blk_8106071779253445256
+2012-10-16 21:16:53,693 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60250, bytes: 32, op: HDFS_READ, cliID: DFSClient_-2109605198, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_2672967402522240888_2088, duration: 234916
+2012-10-16 21:29:48,341 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_4452890872411494395_2081
+2012-10-16 22:06:02,180 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 22:06:02,187 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 7ms
+2012-10-16 22:06:05,182 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 22:06:05,228 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 332 blocks took 1 msec to generate and 46 msecs for RPC and NN processing
+2012-10-16 22:49:25,098 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_3590489459100459364_2091 src: /192.168.0.193:60361 dest: /192.168.0.193:50010
+2012-10-16 22:49:25,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60361, dest: /192.168.0.193:50010, bytes: 11600, op: HDFS_WRITE, cliID: DFSClient_1399677788, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_3590489459100459364_2091, duration: 925140
+2012-10-16 22:49:25,104 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_3590489459100459364_2091 terminating
+2012-10-16 22:49:25,450 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-7315051326541746497_2092 src: /192.168.0.193:60363 dest: /192.168.0.193:50010
+2012-10-16 22:49:25,452 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60363, dest: /192.168.0.193:50010, bytes: 163, op: HDFS_WRITE, cliID: DFSClient_1399677788, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-7315051326541746497_2092, duration: 1060335
+2012-10-16 22:49:25,452 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-7315051326541746497_2092 terminating
+2012-10-16 22:49:25,999 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_4596734694279123450_2093 src: /192.168.0.193:60364 dest: /192.168.0.193:50010
+2012-10-16 22:49:26,001 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60364, dest: /192.168.0.193:50010, bytes: 16, op: HDFS_WRITE, cliID: DFSClient_1399677788, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_4596734694279123450_2093, duration: 1474861
+2012-10-16 22:49:26,002 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_4596734694279123450_2093 terminating
+2012-10-16 22:49:26,056 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-2235264445252936700_2094 src: /192.168.0.193:60365 dest: /192.168.0.193:50010
+2012-10-16 22:49:26,059 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60365, dest: /192.168.0.193:50010, bytes: 26507, op: HDFS_WRITE, cliID: DFSClient_1399677788, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-2235264445252936700_2094, duration: 372347
+2012-10-16 22:49:26,059 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-2235264445252936700_2094 terminating
+2012-10-16 22:49:26,082 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60367, bytes: 26715, op: HDFS_READ, cliID: DFSClient_-2081777727, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-2235264445252936700_2094, duration: 401675
+2012-10-16 22:49:26,110 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_7984415604500248862_2095 src: /192.168.0.193:60369 dest: /192.168.0.193:50010
+2012-10-16 22:49:26,112 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60369, dest: /192.168.0.193:50010, bytes: 85, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_7984415604500248862_2095, duration: 686872
+2012-10-16 22:49:26,112 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_7984415604500248862_2095 terminating
+2012-10-16 22:49:27,493 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_-6507433220773917531_2096 src: /192.168.0.193:60370 dest: /192.168.0.193:50010
+2012-10-16 22:49:27,495 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60370, dest: /192.168.0.193:50010, bytes: 106, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-6507433220773917531_2096, duration: 469553
+2012-10-16 22:49:27,496 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_-6507433220773917531_2096 terminating
+2012-10-16 22:49:27,505 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60371, bytes: 20, op: HDFS_READ, cliID: DFSClient_-2081777727, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_4596734694279123450_2093, duration: 524861
+2012-10-16 22:49:27,656 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60373, bytes: 110, op: HDFS_READ, cliID: DFSClient_-1049836291, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-6507433220773917531_2096, duration: 449721
+2012-10-16 22:49:27,667 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60375, bytes: 26715, op: HDFS_READ, cliID: DFSClient_-1620419012, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-2235264445252936700_2094, duration: 417040
+2012-10-16 22:49:27,721 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60376, bytes: 11692, op: HDFS_READ, cliID: DFSClient_-1620419012, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_3590489459100459364_2091, duration: 349163
+2012-10-16 22:49:31,746 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60387, bytes: 167, op: HDFS_READ, cliID: DFSClient_attempt_201210161925_0007_m_000000_0, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-7315051326541746497_2092, duration: 1134636
+2012-10-16 22:49:32,032 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:50010, dest: /192.168.0.193:60389, bytes: 167, op: HDFS_READ, cliID: DFSClient_attempt_201210161925_0007_m_000001_0, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_-7315051326541746497_2092, duration: 1681285
+2012-10-16 22:49:41,639 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_4190157131290258588_2097 src: /192.168.0.193:60399 dest: /192.168.0.193:50010
+2012-10-16 22:49:41,645 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60399, dest: /192.168.0.193:50010, bytes: 15771, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_4190157131290258588_2097, duration: 806146
+2012-10-16 22:49:41,645 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_4190157131290258588_2097 terminating
+2012-10-16 22:49:41,679 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Receiving block blk_951228028609391966_2098 src: /192.168.0.193:60400 dest: /192.168.0.193:50010
+2012-10-16 22:49:41,682 INFO org.apache.hadoop.hdfs.server.datanode.DataNode.clienttrace: src: /192.168.0.193:60400, dest: /192.168.0.193:50010, bytes: 26505, op: HDFS_WRITE, cliID: DFSClient_972911833, offset: 0, srvID: DS-924087731-10.10.11.235-50010-1347411833414, blockid: blk_951228028609391966_2098, duration: 1471229
+2012-10-16 22:49:41,682 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: PacketResponder 0 for block blk_951228028609391966_2098 terminating
+2012-10-16 22:49:45,557 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-7315051326541746497_2092 file /hadoop/hdfs/data/current/subdir62/blk_-7315051326541746497 for deletion
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-6507433220773917531_2096 file /hadoop/hdfs/data/current/subdir62/blk_-6507433220773917531 for deletion
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-7315051326541746497_2092 at file /hadoop/hdfs/data/current/subdir62/blk_-7315051326541746497
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_-2235264445252936700_2094 file /hadoop/hdfs/data/current/subdir62/blk_-2235264445252936700 for deletion
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-6507433220773917531_2096 at file /hadoop/hdfs/data/current/subdir62/blk_-6507433220773917531
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_3590489459100459364_2091 file /hadoop/hdfs/data/current/subdir62/blk_3590489459100459364 for deletion
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_-2235264445252936700_2094 at file /hadoop/hdfs/data/current/subdir62/blk_-2235264445252936700
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_4596734694279123450_2093 file /hadoop/hdfs/data/current/subdir62/blk_4596734694279123450 for deletion
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_3590489459100459364_2091 at file /hadoop/hdfs/data/current/subdir62/blk_3590489459100459364
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Scheduling block blk_7984415604500248862_2095 file /hadoop/hdfs/data/current/subdir62/blk_7984415604500248862 for deletion
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_4596734694279123450_2093 at file /hadoop/hdfs/data/current/subdir62/blk_4596734694279123450
+2012-10-16 22:49:45,558 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Deleted block blk_7984415604500248862_2095 at file /hadoop/hdfs/data/current/subdir62/blk_7984415604500248862
+2012-10-16 23:06:01,080 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Starting asynchronous block report scan
+2012-10-16 23:06:01,092 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Finished asynchronous block report scan in 12ms
+2012-10-16 23:06:04,085 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: Reconciled asynchronous block report against current state in 1 ms
+2012-10-16 23:06:04,135 INFO org.apache.hadoop.hdfs.server.datanode.DataNode: BlockReport of 334 blocks took 2 msec to generate and 49 msecs for RPC and NN processing
+2012-10-16 23:48:44,309 INFO org.apache.hadoop.hdfs.server.datanode.DataBlockScanner: Verification succeeded for blk_-960412235856489687_2074

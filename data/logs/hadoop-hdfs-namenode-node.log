@@ -1,0 +1,19 @@
+2012-10-18 00:12:19,020 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 1 msecs
+2012-10-18 01:12:18,131 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 2 msecs
+2012-10-18 02:12:17,193 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 2 msecs
+2012-10-18 03:12:16,278 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 0 msecs
+2012-10-18 03:30:19,635 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.193
+2012-10-18 03:30:19,635 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-18 03:30:19,647 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-18 03:30:19,647 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-18 03:30:20,156 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-18 03:30:20,162 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.193
+2012-10-18 03:30:20,162 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 11 
+2012-10-18 03:30:20,333 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-18 03:30:20,333 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-18 04:12:18,557 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 2 msecs
+2012-10-18 05:12:17,850 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 1 msecs
+2012-10-18 05:25:11,479 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-18 06:12:17,078 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 1 msecs
+2012-10-18 07:12:17,612 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 1 msecs
+2012-10-18 08:12:16,368 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 1 msecs

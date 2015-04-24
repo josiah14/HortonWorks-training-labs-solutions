@@ -1,0 +1,5 @@
+project.ext.mainclass = 'demo.MultipleInputFiles'
+project.ext.archiveName = 'multipleinput.jar'
+
+apply from: '/root/java/labs/build.gradle'
+

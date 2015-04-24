@@ -1,0 +1,1132 @@
+2012-10-16 00:40:57,307 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 01:40:56,882 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-16 02:40:56,711 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 02:43:12,725 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.199
+2012-10-16 02:43:12,725 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 02:43:12,778 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 02:43:12,779 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 02:43:14,078 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-16 02:43:14,083 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.199
+2012-10-16 02:43:14,083 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 13 
+2012-10-16 02:43:14,725 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 02:43:14,725 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 03:40:56,255 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 04:38:02,673 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-16 04:40:58,607 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 05:40:55,209 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 0 msecs
+2012-10-16 06:40:57,642 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 07:40:56,855 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 08:40:56,291 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 08:43:18,903 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.199
+2012-10-16 08:43:18,903 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 08:43:19,028 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 08:43:19,028 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 08:43:19,704 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-16 08:43:19,708 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.199
+2012-10-16 08:43:19,708 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 96 
+2012-10-16 08:43:20,015 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 08:43:20,015 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 09:40:58,524 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 10:40:57,642 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 11:40:57,094 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 12:40:56,609 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 2 msecs
+2012-10-16 13:40:56,262 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 14:38:03,958 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-16 14:40:58,549 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 0 msecs
+2012-10-16 14:43:25,124 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.199
+2012-10-16 14:43:25,124 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 14:43:25,176 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 14:43:25,176 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 14:43:25,658 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-16 14:43:25,662 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.199
+2012-10-16 14:43:25,662 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 13 
+2012-10-16 14:43:25,735 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 14:43:25,735 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 15:40:57,911 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.199:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 16:19:17,907 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at node/192.168.0.199
+************************************************************/
+2012-10-16 16:29:45,860 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = node/10.0.2.15
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 16:29:47,302 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 16:29:47,445 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 16:29:47,986 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 16:29:48,001 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 16:29:48,001 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-16 16:29:48,433 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 16:29:48,492 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 16:29:48,493 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-16 16:29:48,579 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-16 16:29:48,590 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-16 16:29:48,590 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-16 16:29:48,590 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-16 16:29:48,660 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-16 16:29:48,660 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-16 16:29:48,660 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-16 16:29:48,675 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-16 16:29:48,675 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-16 16:29:49,092 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-16 16:29:49,144 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-16 16:29:49,144 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-16 16:29:49,318 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 515
+2012-10-16 16:29:49,446 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-16 16:29:49,447 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 loaded in 0 seconds.
+2012-10-16 16:29:49,513 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Reading /hadoop/hdfs/namenode/current/edits: java.io.EOFException
+2012-10-16 16:29:49,513 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2012-10-16 16:29:49,538 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-16 16:29:49,590 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 16:29:49,591 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 16:29:49,650 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-16 16:29:49,703 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 16:29:49,703 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 16:29:49,992 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-16 16:29:49,992 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 1363 msecs
+2012-10-16 16:29:49,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-16 16:29:49,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-16 16:29:49,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-16 16:29:50,042 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 16:29:50,057 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-16 16:29:50,070 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-16 16:29:50,071 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-16 16:29:50,114 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:29:50,123 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8020 registered.
+2012-10-16 16:29:50,123 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8020 registered.
+2012-10-16 16:29:50,119 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:29:50,120 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:29:50,120 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:29:50,132 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: node/10.0.2.15:8020
+2012-10-16 16:29:50,136 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 16:29:50,246 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 16:29:50,333 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 16:29:50,388 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = true
+2012-10-16 16:29:50,389 INFO org.apache.hadoop.http.HttpServer: Added filter 'SPNEGO' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+2012-10-16 16:29:50,409 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 16:29:50,424 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-10-16 16:29:50,426 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-10-16 16:29:50,426 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-10-16 16:29:50,426 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 16:29:50,826 WARN org.apache.hadoop.security.authentication.server.AuthenticationFilter: 'signature.secret' configuration not set, using a random value as secret
+2012-10-16 16:29:50,868 INFO org.mortbay.log: Started SelectChannelConnector@node:50070
+2012-10-16 16:29:50,868 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: node:50070
+2012-10-16 16:29:50,869 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 16:29:50,873 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-10-16 16:29:50,876 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-10-16 16:29:50,878 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-10-16 16:29:50,880 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-10-16 16:29:50,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-10-16 16:29:50,884 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-10-16 16:29:50,886 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-10-16 16:29:50,888 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-10-16 16:29:50,890 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-10-16 16:29:50,891 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-10-16 16:29:50,893 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-10-16 16:29:50,895 INFO org.apache.hadoop.ipc.Server: IPC Server handler 10 on 8020: starting
+2012-10-16 16:29:50,897 INFO org.apache.hadoop.ipc.Server: IPC Server handler 11 on 8020: starting
+2012-10-16 16:29:50,899 INFO org.apache.hadoop.ipc.Server: IPC Server handler 12 on 8020: starting
+2012-10-16 16:29:50,902 INFO org.apache.hadoop.ipc.Server: IPC Server handler 13 on 8020: starting
+2012-10-16 16:29:50,910 INFO org.apache.hadoop.ipc.Server: IPC Server handler 14 on 8020: starting
+2012-10-16 16:29:50,913 INFO org.apache.hadoop.ipc.Server: IPC Server handler 15 on 8020: starting
+2012-10-16 16:29:50,924 INFO org.apache.hadoop.ipc.Server: IPC Server handler 17 on 8020: starting
+2012-10-16 16:29:50,927 INFO org.apache.hadoop.ipc.Server: IPC Server handler 18 on 8020: starting
+2012-10-16 16:29:50,929 INFO org.apache.hadoop.ipc.Server: IPC Server handler 19 on 8020: starting
+2012-10-16 16:29:50,931 INFO org.apache.hadoop.ipc.Server: IPC Server handler 20 on 8020: starting
+2012-10-16 16:29:50,933 INFO org.apache.hadoop.ipc.Server: IPC Server handler 21 on 8020: starting
+2012-10-16 16:29:50,934 INFO org.apache.hadoop.ipc.Server: IPC Server handler 22 on 8020: starting
+2012-10-16 16:29:50,937 INFO org.apache.hadoop.ipc.Server: IPC Server handler 23 on 8020: starting
+2012-10-16 16:29:50,939 INFO org.apache.hadoop.ipc.Server: IPC Server handler 24 on 8020: starting
+2012-10-16 16:29:50,941 INFO org.apache.hadoop.ipc.Server: IPC Server handler 25 on 8020: starting
+2012-10-16 16:29:50,943 INFO org.apache.hadoop.ipc.Server: IPC Server handler 26 on 8020: starting
+2012-10-16 16:29:50,945 INFO org.apache.hadoop.ipc.Server: IPC Server handler 27 on 8020: starting
+2012-10-16 16:29:51,007 INFO org.apache.hadoop.ipc.Server: IPC Server handler 28 on 8020: starting
+2012-10-16 16:29:51,007 INFO org.apache.hadoop.ipc.Server: IPC Server handler 16 on 8020: starting
+2012-10-16 16:29:51,010 INFO org.apache.hadoop.ipc.Server: IPC Server handler 98 on 8020: starting
+2012-10-16 16:29:51,011 INFO org.apache.hadoop.ipc.Server: IPC Server handler 97 on 8020: starting
+2012-10-16 16:29:51,011 INFO org.apache.hadoop.ipc.Server: IPC Server handler 96 on 8020: starting
+2012-10-16 16:29:51,011 INFO org.apache.hadoop.ipc.Server: IPC Server handler 95 on 8020: starting
+2012-10-16 16:29:51,011 INFO org.apache.hadoop.ipc.Server: IPC Server handler 94 on 8020: starting
+2012-10-16 16:29:51,013 INFO org.apache.hadoop.ipc.Server: IPC Server handler 93 on 8020: starting
+2012-10-16 16:29:51,014 INFO org.apache.hadoop.ipc.Server: IPC Server handler 92 on 8020: starting
+2012-10-16 16:29:51,015 INFO org.apache.hadoop.ipc.Server: IPC Server handler 91 on 8020: starting
+2012-10-16 16:29:51,017 INFO org.apache.hadoop.ipc.Server: IPC Server handler 90 on 8020: starting
+2012-10-16 16:29:51,018 INFO org.apache.hadoop.ipc.Server: IPC Server handler 89 on 8020: starting
+2012-10-16 16:29:51,020 INFO org.apache.hadoop.ipc.Server: IPC Server handler 88 on 8020: starting
+2012-10-16 16:29:51,022 INFO org.apache.hadoop.ipc.Server: IPC Server handler 87 on 8020: starting
+2012-10-16 16:29:51,024 INFO org.apache.hadoop.ipc.Server: IPC Server handler 86 on 8020: starting
+2012-10-16 16:29:51,024 INFO org.apache.hadoop.ipc.Server: IPC Server handler 85 on 8020: starting
+2012-10-16 16:29:51,024 INFO org.apache.hadoop.ipc.Server: IPC Server handler 84 on 8020: starting
+2012-10-16 16:29:51,024 INFO org.apache.hadoop.ipc.Server: IPC Server handler 83 on 8020: starting
+2012-10-16 16:29:51,024 INFO org.apache.hadoop.ipc.Server: IPC Server handler 82 on 8020: starting
+2012-10-16 16:29:51,025 INFO org.apache.hadoop.ipc.Server: IPC Server handler 81 on 8020: starting
+2012-10-16 16:29:51,027 INFO org.apache.hadoop.ipc.Server: IPC Server handler 80 on 8020: starting
+2012-10-16 16:29:51,028 INFO org.apache.hadoop.ipc.Server: IPC Server handler 79 on 8020: starting
+2012-10-16 16:29:51,030 INFO org.apache.hadoop.ipc.Server: IPC Server handler 78 on 8020: starting
+2012-10-16 16:29:51,031 INFO org.apache.hadoop.ipc.Server: IPC Server handler 77 on 8020: starting
+2012-10-16 16:29:51,033 INFO org.apache.hadoop.ipc.Server: IPC Server handler 76 on 8020: starting
+2012-10-16 16:29:51,035 INFO org.apache.hadoop.ipc.Server: IPC Server handler 75 on 8020: starting
+2012-10-16 16:29:51,036 INFO org.apache.hadoop.ipc.Server: IPC Server handler 74 on 8020: starting
+2012-10-16 16:29:51,037 INFO org.apache.hadoop.ipc.Server: IPC Server handler 73 on 8020: starting
+2012-10-16 16:29:51,039 INFO org.apache.hadoop.ipc.Server: IPC Server handler 72 on 8020: starting
+2012-10-16 16:29:51,041 INFO org.apache.hadoop.ipc.Server: IPC Server handler 71 on 8020: starting
+2012-10-16 16:29:51,042 INFO org.apache.hadoop.ipc.Server: IPC Server handler 70 on 8020: starting
+2012-10-16 16:29:51,044 INFO org.apache.hadoop.ipc.Server: IPC Server handler 69 on 8020: starting
+2012-10-16 16:29:51,046 INFO org.apache.hadoop.ipc.Server: IPC Server handler 68 on 8020: starting
+2012-10-16 16:29:51,047 INFO org.apache.hadoop.ipc.Server: IPC Server handler 67 on 8020: starting
+2012-10-16 16:29:51,049 INFO org.apache.hadoop.ipc.Server: IPC Server handler 66 on 8020: starting
+2012-10-16 16:29:51,049 INFO org.apache.hadoop.ipc.Server: IPC Server handler 65 on 8020: starting
+2012-10-16 16:29:51,050 INFO org.apache.hadoop.ipc.Server: IPC Server handler 64 on 8020: starting
+2012-10-16 16:29:51,052 INFO org.apache.hadoop.ipc.Server: IPC Server handler 63 on 8020: starting
+2012-10-16 16:29:51,054 INFO org.apache.hadoop.ipc.Server: IPC Server handler 62 on 8020: starting
+2012-10-16 16:29:51,055 INFO org.apache.hadoop.ipc.Server: IPC Server handler 61 on 8020: starting
+2012-10-16 16:29:51,057 INFO org.apache.hadoop.ipc.Server: IPC Server handler 60 on 8020: starting
+2012-10-16 16:29:51,058 INFO org.apache.hadoop.ipc.Server: IPC Server handler 59 on 8020: starting
+2012-10-16 16:29:51,061 INFO org.apache.hadoop.ipc.Server: IPC Server handler 58 on 8020: starting
+2012-10-16 16:29:51,062 INFO org.apache.hadoop.ipc.Server: IPC Server handler 57 on 8020: starting
+2012-10-16 16:29:51,063 INFO org.apache.hadoop.ipc.Server: IPC Server handler 56 on 8020: starting
+2012-10-16 16:29:51,065 INFO org.apache.hadoop.ipc.Server: IPC Server handler 55 on 8020: starting
+2012-10-16 16:29:51,067 INFO org.apache.hadoop.ipc.Server: IPC Server handler 54 on 8020: starting
+2012-10-16 16:29:51,069 INFO org.apache.hadoop.ipc.Server: IPC Server handler 52 on 8020: starting
+2012-10-16 16:29:51,072 INFO org.apache.hadoop.ipc.Server: IPC Server handler 51 on 8020: starting
+2012-10-16 16:29:51,123 INFO org.apache.hadoop.ipc.Server: IPC Server handler 99 on 8020: starting
+2012-10-16 16:29:51,123 INFO org.apache.hadoop.ipc.Server: IPC Server handler 50 on 8020: starting
+2012-10-16 16:29:51,124 INFO org.apache.hadoop.ipc.Server: IPC Server handler 49 on 8020: starting
+2012-10-16 16:29:51,125 INFO org.apache.hadoop.ipc.Server: IPC Server handler 48 on 8020: starting
+2012-10-16 16:29:51,125 INFO org.apache.hadoop.ipc.Server: IPC Server handler 47 on 8020: starting
+2012-10-16 16:29:51,126 INFO org.apache.hadoop.ipc.Server: IPC Server handler 46 on 8020: starting
+2012-10-16 16:29:51,126 INFO org.apache.hadoop.ipc.Server: IPC Server handler 45 on 8020: starting
+2012-10-16 16:29:51,127 INFO org.apache.hadoop.ipc.Server: IPC Server handler 44 on 8020: starting
+2012-10-16 16:29:51,128 INFO org.apache.hadoop.ipc.Server: IPC Server handler 43 on 8020: starting
+2012-10-16 16:29:51,129 INFO org.apache.hadoop.ipc.Server: IPC Server handler 42 on 8020: starting
+2012-10-16 16:29:51,129 INFO org.apache.hadoop.ipc.Server: IPC Server handler 41 on 8020: starting
+2012-10-16 16:29:51,129 INFO org.apache.hadoop.ipc.Server: IPC Server handler 40 on 8020: starting
+2012-10-16 16:29:51,129 INFO org.apache.hadoop.ipc.Server: IPC Server handler 39 on 8020: starting
+2012-10-16 16:29:51,129 INFO org.apache.hadoop.ipc.Server: IPC Server handler 38 on 8020: starting
+2012-10-16 16:29:51,130 INFO org.apache.hadoop.ipc.Server: IPC Server handler 37 on 8020: starting
+2012-10-16 16:29:51,130 INFO org.apache.hadoop.ipc.Server: IPC Server handler 36 on 8020: starting
+2012-10-16 16:29:51,130 INFO org.apache.hadoop.ipc.Server: IPC Server handler 35 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 34 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 33 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 32 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 31 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 30 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 29 on 8020: starting
+2012-10-16 16:29:51,131 INFO org.apache.hadoop.ipc.Server: IPC Server handler 53 on 8020: starting
+2012-10-16 16:30:12,346 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 10.0.2.15:50010 storage DS-924087731-10.10.11.235-50010-1347411833414
+2012-10-16 16:30:12,350 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/10.0.2.15:50010
+2012-10-16 16:30:12,352 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 16:30:12,355 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 10.0.2.15:50010 0 blocks
+2012-10-16 16:31:06,480 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 1 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 16:31:06,487 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 29 seconds.
+2012-10-16 16:31:06,487 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.0.2.15:50010, blocks: 343, processing time: 9 msecs
+2012-10-16 16:31:26,507 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 9 seconds.
+2012-10-16 16:31:36,529 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 343
+2012-10-16 16:31:36,529 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-10-16 16:31:36,529 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 343
+2012-10-16 16:31:36,529 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-10-16 16:31:36,529 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 13 msec
+2012-10-16 16:31:36,530 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 107 secs.
+2012-10-16 16:31:36,530 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-10-16 16:31:36,530 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-10-16 16:31:36,530 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 343 blocks
+2012-10-16 16:31:37,081 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3563358970499170301 is added to invalidSet of 10.0.2.15:50010
+2012-10-16 16:31:37,083 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 16:31:37,189 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/jobtracker.info. blk_-7102792137304081781_2068
+2012-10-16 16:31:37,246 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.0.2.15:50010 is added to blk_-7102792137304081781_2068 size 4
+2012-10-16 16:31:37,249 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/jobtracker.info from client DFSClient_-1906848045
+2012-10-16 16:31:37,250 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/jobtracker.info is closed by DFSClient_-1906848045
+2012-10-16 16:31:38,101 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 2 msec
+2012-10-16 16:31:38,102 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.0.2.15:50010 to delete  blk_-3563358970499170301_2067
+2012-10-16 16:31:38,102 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 1 blocks in 0 msec
+2012-10-16 16:31:38,102 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 1 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2012-10-16 16:34:51,783 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.0.2.15
+2012-10-16 16:34:51,783 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 8 Total time for transactions(ms): 4Number of transactions batched in Syncs: 0 Number of syncs: 6 SyncTimes(ms): 68 
+2012-10-16 16:34:51,831 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=569, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 16:34:51,831 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 569, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 16:34:52,671 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-16 16:34:52,741 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.0.2.15
+2012-10-16 16:34:52,741 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 53 
+2012-10-16 16:34:52,746 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 16:34:52,747 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 16:41:09,800 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.0.2.15:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 17:41:08,918 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.0.2.15:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 18:37:53,934 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at node/10.0.2.15
+************************************************************/
+2012-10-16 18:42:40,838 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = node/192.168.0.193
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 18:42:41,842 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 18:42:41,972 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 18:42:42,381 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 18:42:42,408 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 18:42:42,408 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-16 18:42:42,885 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 18:42:42,935 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 18:42:42,936 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-16 18:42:43,050 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-16 18:42:43,051 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-16 18:42:43,052 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-16 18:42:43,052 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-16 18:42:43,097 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-16 18:42:43,097 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-16 18:42:43,097 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-16 18:42:43,102 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-16 18:42:43,103 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-16 18:42:43,802 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-16 18:42:43,890 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-16 18:42:43,890 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-16 18:42:44,048 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 515
+2012-10-16 18:42:44,162 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-16 18:42:44,162 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 loaded in 0 seconds.
+2012-10-16 18:42:44,241 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Reading /hadoop/hdfs/namenode/current/edits: java.io.EOFException
+2012-10-16 18:42:44,241 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2012-10-16 18:42:44,273 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-16 18:42:44,331 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:42:44,331 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:42:44,424 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-16 18:42:44,483 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:42:44,484 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:42:44,700 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-16 18:42:44,701 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 1618 msecs
+2012-10-16 18:42:44,701 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-16 18:42:44,701 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-16 18:42:44,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-16 18:42:44,747 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:42:44,765 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-16 18:42:44,776 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-16 18:42:44,777 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-16 18:42:44,822 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:42:44,832 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8020 registered.
+2012-10-16 18:42:44,832 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8020 registered.
+2012-10-16 18:42:44,833 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: node/192.168.0.193:8020
+2012-10-16 18:42:44,824 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:42:44,825 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:42:44,825 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:42:44,848 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:42:44,992 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 18:42:45,068 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 18:42:45,142 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = true
+2012-10-16 18:42:45,143 INFO org.apache.hadoop.http.HttpServer: Added filter 'SPNEGO' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+2012-10-16 18:42:45,147 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 18:42:45,157 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-10-16 18:42:45,159 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-10-16 18:42:45,159 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-10-16 18:42:45,159 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 18:42:45,542 WARN org.apache.hadoop.security.authentication.server.AuthenticationFilter: 'signature.secret' configuration not set, using a random value as secret
+2012-10-16 18:42:45,613 INFO org.mortbay.log: Started SelectChannelConnector@node:50070
+2012-10-16 18:42:45,618 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: node:50070
+2012-10-16 18:42:45,626 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 18:42:45,633 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-10-16 18:42:45,640 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-10-16 18:42:45,642 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-10-16 18:42:45,644 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-10-16 18:42:45,646 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-10-16 18:42:45,649 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-10-16 18:42:45,651 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-10-16 18:42:45,658 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-10-16 18:42:45,660 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-10-16 18:42:45,661 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-10-16 18:42:45,663 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-10-16 18:42:45,667 INFO org.apache.hadoop.ipc.Server: IPC Server handler 10 on 8020: starting
+2012-10-16 18:42:45,670 INFO org.apache.hadoop.ipc.Server: IPC Server handler 11 on 8020: starting
+2012-10-16 18:42:45,673 INFO org.apache.hadoop.ipc.Server: IPC Server handler 12 on 8020: starting
+2012-10-16 18:42:45,675 INFO org.apache.hadoop.ipc.Server: IPC Server handler 13 on 8020: starting
+2012-10-16 18:42:45,677 INFO org.apache.hadoop.ipc.Server: IPC Server handler 14 on 8020: starting
+2012-10-16 18:42:45,679 INFO org.apache.hadoop.ipc.Server: IPC Server handler 15 on 8020: starting
+2012-10-16 18:42:45,682 INFO org.apache.hadoop.ipc.Server: IPC Server handler 16 on 8020: starting
+2012-10-16 18:42:45,683 INFO org.apache.hadoop.ipc.Server: IPC Server handler 17 on 8020: starting
+2012-10-16 18:42:45,685 INFO org.apache.hadoop.ipc.Server: IPC Server handler 18 on 8020: starting
+2012-10-16 18:42:45,687 INFO org.apache.hadoop.ipc.Server: IPC Server handler 19 on 8020: starting
+2012-10-16 18:42:45,689 INFO org.apache.hadoop.ipc.Server: IPC Server handler 20 on 8020: starting
+2012-10-16 18:42:45,691 INFO org.apache.hadoop.ipc.Server: IPC Server handler 21 on 8020: starting
+2012-10-16 18:42:45,693 INFO org.apache.hadoop.ipc.Server: IPC Server handler 22 on 8020: starting
+2012-10-16 18:42:45,695 INFO org.apache.hadoop.ipc.Server: IPC Server handler 23 on 8020: starting
+2012-10-16 18:42:45,697 INFO org.apache.hadoop.ipc.Server: IPC Server handler 24 on 8020: starting
+2012-10-16 18:42:45,698 INFO org.apache.hadoop.ipc.Server: IPC Server handler 25 on 8020: starting
+2012-10-16 18:42:45,700 INFO org.apache.hadoop.ipc.Server: IPC Server handler 26 on 8020: starting
+2012-10-16 18:42:45,773 INFO org.apache.hadoop.ipc.Server: IPC Server handler 99 on 8020: starting
+2012-10-16 18:42:45,773 INFO org.apache.hadoop.ipc.Server: IPC Server handler 27 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 98 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 97 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 96 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 95 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 94 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 93 on 8020: starting
+2012-10-16 18:42:45,776 INFO org.apache.hadoop.ipc.Server: IPC Server handler 92 on 8020: starting
+2012-10-16 18:42:45,778 INFO org.apache.hadoop.ipc.Server: IPC Server handler 91 on 8020: starting
+2012-10-16 18:42:45,780 INFO org.apache.hadoop.ipc.Server: IPC Server handler 90 on 8020: starting
+2012-10-16 18:42:45,782 INFO org.apache.hadoop.ipc.Server: IPC Server handler 89 on 8020: starting
+2012-10-16 18:42:45,783 INFO org.apache.hadoop.ipc.Server: IPC Server handler 88 on 8020: starting
+2012-10-16 18:42:45,785 INFO org.apache.hadoop.ipc.Server: IPC Server handler 87 on 8020: starting
+2012-10-16 18:42:45,786 INFO org.apache.hadoop.ipc.Server: IPC Server handler 86 on 8020: starting
+2012-10-16 18:42:45,788 INFO org.apache.hadoop.ipc.Server: IPC Server handler 85 on 8020: starting
+2012-10-16 18:42:45,788 INFO org.apache.hadoop.ipc.Server: IPC Server handler 84 on 8020: starting
+2012-10-16 18:42:45,788 INFO org.apache.hadoop.ipc.Server: IPC Server handler 83 on 8020: starting
+2012-10-16 18:42:45,788 INFO org.apache.hadoop.ipc.Server: IPC Server handler 82 on 8020: starting
+2012-10-16 18:42:45,788 INFO org.apache.hadoop.ipc.Server: IPC Server handler 81 on 8020: starting
+2012-10-16 18:42:45,790 INFO org.apache.hadoop.ipc.Server: IPC Server handler 80 on 8020: starting
+2012-10-16 18:42:45,792 INFO org.apache.hadoop.ipc.Server: IPC Server handler 79 on 8020: starting
+2012-10-16 18:42:45,793 INFO org.apache.hadoop.ipc.Server: IPC Server handler 78 on 8020: starting
+2012-10-16 18:42:45,795 INFO org.apache.hadoop.ipc.Server: IPC Server handler 77 on 8020: starting
+2012-10-16 18:42:45,796 INFO org.apache.hadoop.ipc.Server: IPC Server handler 76 on 8020: starting
+2012-10-16 18:42:45,798 INFO org.apache.hadoop.ipc.Server: IPC Server handler 75 on 8020: starting
+2012-10-16 18:42:45,799 INFO org.apache.hadoop.ipc.Server: IPC Server handler 74 on 8020: starting
+2012-10-16 18:42:45,801 INFO org.apache.hadoop.ipc.Server: IPC Server handler 73 on 8020: starting
+2012-10-16 18:42:45,802 INFO org.apache.hadoop.ipc.Server: IPC Server handler 72 on 8020: starting
+2012-10-16 18:42:45,804 INFO org.apache.hadoop.ipc.Server: IPC Server handler 71 on 8020: starting
+2012-10-16 18:42:45,805 INFO org.apache.hadoop.ipc.Server: IPC Server handler 70 on 8020: starting
+2012-10-16 18:42:45,806 INFO org.apache.hadoop.ipc.Server: IPC Server handler 69 on 8020: starting
+2012-10-16 18:42:45,809 INFO org.apache.hadoop.ipc.Server: IPC Server handler 68 on 8020: starting
+2012-10-16 18:42:45,810 INFO org.apache.hadoop.ipc.Server: IPC Server handler 67 on 8020: starting
+2012-10-16 18:42:45,812 INFO org.apache.hadoop.ipc.Server: IPC Server handler 66 on 8020: starting
+2012-10-16 18:42:45,813 INFO org.apache.hadoop.ipc.Server: IPC Server handler 65 on 8020: starting
+2012-10-16 18:42:45,814 INFO org.apache.hadoop.ipc.Server: IPC Server handler 64 on 8020: starting
+2012-10-16 18:42:45,815 INFO org.apache.hadoop.ipc.Server: IPC Server handler 63 on 8020: starting
+2012-10-16 18:42:45,817 INFO org.apache.hadoop.ipc.Server: IPC Server handler 62 on 8020: starting
+2012-10-16 18:42:45,818 INFO org.apache.hadoop.ipc.Server: IPC Server handler 61 on 8020: starting
+2012-10-16 18:42:45,820 INFO org.apache.hadoop.ipc.Server: IPC Server handler 60 on 8020: starting
+2012-10-16 18:42:45,821 INFO org.apache.hadoop.ipc.Server: IPC Server handler 59 on 8020: starting
+2012-10-16 18:42:45,823 INFO org.apache.hadoop.ipc.Server: IPC Server handler 58 on 8020: starting
+2012-10-16 18:42:45,825 INFO org.apache.hadoop.ipc.Server: IPC Server handler 57 on 8020: starting
+2012-10-16 18:42:45,826 INFO org.apache.hadoop.ipc.Server: IPC Server handler 56 on 8020: starting
+2012-10-16 18:42:45,828 INFO org.apache.hadoop.ipc.Server: IPC Server handler 55 on 8020: starting
+2012-10-16 18:42:45,829 INFO org.apache.hadoop.ipc.Server: IPC Server handler 54 on 8020: starting
+2012-10-16 18:42:45,830 INFO org.apache.hadoop.ipc.Server: IPC Server handler 53 on 8020: starting
+2012-10-16 18:42:45,832 INFO org.apache.hadoop.ipc.Server: IPC Server handler 52 on 8020: starting
+2012-10-16 18:42:45,833 INFO org.apache.hadoop.ipc.Server: IPC Server handler 51 on 8020: starting
+2012-10-16 18:42:45,867 INFO org.apache.hadoop.ipc.Server: IPC Server handler 50 on 8020: starting
+2012-10-16 18:42:45,867 INFO org.apache.hadoop.ipc.Server: IPC Server handler 49 on 8020: starting
+2012-10-16 18:42:45,867 INFO org.apache.hadoop.ipc.Server: IPC Server handler 48 on 8020: starting
+2012-10-16 18:42:45,867 INFO org.apache.hadoop.ipc.Server: IPC Server handler 47 on 8020: starting
+2012-10-16 18:42:45,867 INFO org.apache.hadoop.ipc.Server: IPC Server handler 46 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 45 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 44 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 43 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 42 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 41 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 40 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 39 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 38 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 37 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 36 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 35 on 8020: starting
+2012-10-16 18:42:45,868 INFO org.apache.hadoop.ipc.Server: IPC Server handler 34 on 8020: starting
+2012-10-16 18:42:45,869 INFO org.apache.hadoop.ipc.Server: IPC Server handler 33 on 8020: starting
+2012-10-16 18:42:45,869 INFO org.apache.hadoop.ipc.Server: IPC Server handler 32 on 8020: starting
+2012-10-16 18:42:45,869 INFO org.apache.hadoop.ipc.Server: IPC Server handler 31 on 8020: starting
+2012-10-16 18:42:45,869 INFO org.apache.hadoop.ipc.Server: IPC Server handler 30 on 8020: starting
+2012-10-16 18:42:45,869 INFO org.apache.hadoop.ipc.Server: IPC Server handler 29 on 8020: starting
+2012-10-16 18:42:45,869 INFO org.apache.hadoop.ipc.Server: IPC Server handler 28 on 8020: starting
+2012-10-16 18:43:07,174 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.0.193:50010 storage DS-924087731-10.10.11.235-50010-1347411833414
+2012-10-16 18:43:07,177 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.0.193:50010
+2012-10-16 18:43:07,178 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:43:07,186 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 192.168.0.193:50010 0 blocks
+2012-10-16 18:44:15,348 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:train cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/output. Name node is in safe mode.
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:44:15,349 INFO org.apache.hadoop.ipc.Server: IPC Server handler 12 on 8020, call delete(/user/train/output, true) from 192.168.0.193:33632: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/output. Name node is in safe mode.
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/output. Name node is in safe mode.
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:2028)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:2008)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:769)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:578)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1122)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2012-10-16 18:45:04,341 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 1 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:45:04,348 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 29 seconds.
+2012-10-16 18:45:04,348 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 11 msecs
+2012-10-16 18:45:21,924 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:train cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/dboutput. Name node is in safe mode.
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 12 seconds.
+2012-10-16 18:45:21,924 INFO org.apache.hadoop.ipc.Server: IPC Server handler 58 on 8020, call delete(/user/train/dboutput, true) from 192.168.0.193:33634: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/dboutput. Name node is in safe mode.
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 12 seconds.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/dboutput. Name node is in safe mode.
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 12 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:2028)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:2008)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:769)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:578)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1122)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2012-10-16 18:45:24,374 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 9 seconds.
+2012-10-16 18:45:34,400 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 343
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 343
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 16 msec
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 171 secs.
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-10-16 18:45:34,401 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 343 blocks
+2012-10-16 18:45:34,681 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7102792137304081781 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 18:45:34,682 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 18:45:34,911 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/jobtracker.info. blk_6093449676356896052_2069
+2012-10-16 18:45:34,964 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_6093449676356896052_2069 size 4
+2012-10-16 18:45:34,966 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/jobtracker.info from client DFSClient_-1449044530
+2012-10-16 18:45:34,967 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/jobtracker.info is closed by DFSClient_-1449044530
+2012-10-16 18:45:35,838 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 2 msec
+2012-10-16 18:45:35,839 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.0.193:50010 to delete  blk_-7102792137304081781_2068
+2012-10-16 18:45:35,839 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 1 blocks in 1 msec
+2012-10-16 18:45:35,839 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 1 blocks in 1 msec processing time, 1 msec clock time, 1 cycles
+2012-10-16 18:46:29,767 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at node/192.168.0.193
+************************************************************/
+2012-10-16 18:46:47,130 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = node/192.168.0.193
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 18:46:47,311 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 18:46:47,337 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 18:46:47,399 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 18:46:47,401 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 18:46:47,401 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-16 18:46:47,531 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 18:46:47,547 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 18:46:47,547 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-16 18:46:47,594 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-16 18:46:47,595 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-16 18:46:47,596 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-16 18:46:47,596 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-16 18:46:47,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-16 18:46:47,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-16 18:46:47,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-16 18:46:47,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-16 18:46:47,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-16 18:46:47,949 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-16 18:46:47,969 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-16 18:46:47,969 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-16 18:46:47,988 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 515
+2012-10-16 18:46:48,087 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-16 18:46:48,087 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 loaded in 0 seconds.
+2012-10-16 18:46:48,092 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Invalid opcode, reached end of edit log Number of transactions found 8
+2012-10-16 18:46:48,092 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 1048580 edits # 8 loaded in 0 seconds.
+2012-10-16 18:46:48,110 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-16 18:46:48,214 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:46:48,214 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:46:48,261 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62266 saved in 0 seconds.
+2012-10-16 18:46:48,348 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:46:48,348 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:46:48,370 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-16 18:46:48,370 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 747 msecs
+2012-10-16 18:46:48,372 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-16 18:46:48,372 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-16 18:46:48,372 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-16 18:46:48,387 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:46:48,399 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-16 18:46:48,400 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-16 18:46:48,408 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-16 18:46:48,466 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:46:48,466 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:46:48,467 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:46:48,467 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:46:48,471 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8020 registered.
+2012-10-16 18:46:48,471 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8020 registered.
+2012-10-16 18:46:48,473 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: node/192.168.0.193:8020
+2012-10-16 18:46:48,475 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 18:46:48,597 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 18:46:48,672 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 18:46:48,681 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = true
+2012-10-16 18:46:48,683 INFO org.apache.hadoop.http.HttpServer: Added filter 'SPNEGO' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+2012-10-16 18:46:48,684 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 18:46:48,697 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-10-16 18:46:48,699 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-10-16 18:46:48,699 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-10-16 18:46:48,699 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 18:46:49,223 WARN org.apache.hadoop.security.authentication.server.AuthenticationFilter: 'signature.secret' configuration not set, using a random value as secret
+2012-10-16 18:46:49,290 INFO org.mortbay.log: Started SelectChannelConnector@node:50070
+2012-10-16 18:46:49,292 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: node:50070
+2012-10-16 18:46:49,293 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 18:46:49,296 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-10-16 18:46:49,298 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-10-16 18:46:49,304 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-10-16 18:46:49,305 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-10-16 18:46:49,315 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-10-16 18:46:49,325 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-10-16 18:46:49,333 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-10-16 18:46:49,338 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-10-16 18:46:49,339 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-10-16 18:46:49,340 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-10-16 18:46:49,347 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-10-16 18:46:49,348 INFO org.apache.hadoop.ipc.Server: IPC Server handler 10 on 8020: starting
+2012-10-16 18:46:49,353 INFO org.apache.hadoop.ipc.Server: IPC Server handler 11 on 8020: starting
+2012-10-16 18:46:49,353 INFO org.apache.hadoop.ipc.Server: IPC Server handler 12 on 8020: starting
+2012-10-16 18:46:49,354 INFO org.apache.hadoop.ipc.Server: IPC Server handler 13 on 8020: starting
+2012-10-16 18:46:49,364 INFO org.apache.hadoop.ipc.Server: IPC Server handler 14 on 8020: starting
+2012-10-16 18:46:49,364 INFO org.apache.hadoop.ipc.Server: IPC Server handler 15 on 8020: starting
+2012-10-16 18:46:49,369 INFO org.apache.hadoop.ipc.Server: IPC Server handler 16 on 8020: starting
+2012-10-16 18:46:49,369 INFO org.apache.hadoop.ipc.Server: IPC Server handler 17 on 8020: starting
+2012-10-16 18:46:49,373 INFO org.apache.hadoop.ipc.Server: IPC Server handler 18 on 8020: starting
+2012-10-16 18:46:49,379 INFO org.apache.hadoop.ipc.Server: IPC Server handler 19 on 8020: starting
+2012-10-16 18:46:49,380 INFO org.apache.hadoop.ipc.Server: IPC Server handler 20 on 8020: starting
+2012-10-16 18:46:49,389 INFO org.apache.hadoop.ipc.Server: IPC Server handler 21 on 8020: starting
+2012-10-16 18:46:49,397 INFO org.apache.hadoop.ipc.Server: IPC Server handler 22 on 8020: starting
+2012-10-16 18:46:49,400 INFO org.apache.hadoop.ipc.Server: IPC Server handler 23 on 8020: starting
+2012-10-16 18:46:49,407 INFO org.apache.hadoop.ipc.Server: IPC Server handler 24 on 8020: starting
+2012-10-16 18:46:49,410 INFO org.apache.hadoop.ipc.Server: IPC Server handler 25 on 8020: starting
+2012-10-16 18:46:49,416 INFO org.apache.hadoop.ipc.Server: IPC Server handler 26 on 8020: starting
+2012-10-16 18:46:49,608 INFO org.apache.hadoop.ipc.Server: IPC Server handler 99 on 8020: starting
+2012-10-16 18:46:49,608 INFO org.apache.hadoop.ipc.Server: IPC Server handler 27 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 98 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 97 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 95 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 94 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 93 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 92 on 8020: starting
+2012-10-16 18:46:49,612 INFO org.apache.hadoop.ipc.Server: IPC Server handler 91 on 8020: starting
+2012-10-16 18:46:49,613 INFO org.apache.hadoop.ipc.Server: IPC Server handler 90 on 8020: starting
+2012-10-16 18:46:49,613 INFO org.apache.hadoop.ipc.Server: IPC Server handler 89 on 8020: starting
+2012-10-16 18:46:49,613 INFO org.apache.hadoop.ipc.Server: IPC Server handler 88 on 8020: starting
+2012-10-16 18:46:49,613 INFO org.apache.hadoop.ipc.Server: IPC Server handler 87 on 8020: starting
+2012-10-16 18:46:49,613 INFO org.apache.hadoop.ipc.Server: IPC Server handler 86 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 73 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 84 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 83 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 82 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 81 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 80 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 79 on 8020: starting
+2012-10-16 18:46:49,615 INFO org.apache.hadoop.ipc.Server: IPC Server handler 78 on 8020: starting
+2012-10-16 18:46:49,615 INFO org.apache.hadoop.ipc.Server: IPC Server handler 77 on 8020: starting
+2012-10-16 18:46:49,615 INFO org.apache.hadoop.ipc.Server: IPC Server handler 76 on 8020: starting
+2012-10-16 18:46:49,615 INFO org.apache.hadoop.ipc.Server: IPC Server handler 75 on 8020: starting
+2012-10-16 18:46:49,616 INFO org.apache.hadoop.ipc.Server: IPC Server handler 74 on 8020: starting
+2012-10-16 18:46:49,616 INFO org.apache.hadoop.ipc.Server: IPC Server handler 72 on 8020: starting
+2012-10-16 18:46:49,611 INFO org.apache.hadoop.ipc.Server: IPC Server handler 96 on 8020: starting
+2012-10-16 18:46:49,614 INFO org.apache.hadoop.ipc.Server: IPC Server handler 85 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 70 on 8020: starting
+2012-10-16 18:46:49,616 INFO org.apache.hadoop.ipc.Server: IPC Server handler 71 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 68 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 67 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 65 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 66 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 64 on 8020: starting
+2012-10-16 18:46:49,618 INFO org.apache.hadoop.ipc.Server: IPC Server handler 63 on 8020: starting
+2012-10-16 18:46:49,619 INFO org.apache.hadoop.ipc.Server: IPC Server handler 62 on 8020: starting
+2012-10-16 18:46:49,619 INFO org.apache.hadoop.ipc.Server: IPC Server handler 61 on 8020: starting
+2012-10-16 18:46:49,619 INFO org.apache.hadoop.ipc.Server: IPC Server handler 60 on 8020: starting
+2012-10-16 18:46:49,619 INFO org.apache.hadoop.ipc.Server: IPC Server handler 59 on 8020: starting
+2012-10-16 18:46:49,619 INFO org.apache.hadoop.ipc.Server: IPC Server handler 58 on 8020: starting
+2012-10-16 18:46:49,620 INFO org.apache.hadoop.ipc.Server: IPC Server handler 57 on 8020: starting
+2012-10-16 18:46:49,620 INFO org.apache.hadoop.ipc.Server: IPC Server handler 56 on 8020: starting
+2012-10-16 18:46:49,620 INFO org.apache.hadoop.ipc.Server: IPC Server handler 55 on 8020: starting
+2012-10-16 18:46:49,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 54 on 8020: starting
+2012-10-16 18:46:49,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 53 on 8020: starting
+2012-10-16 18:46:49,621 INFO org.apache.hadoop.ipc.Server: IPC Server handler 52 on 8020: starting
+2012-10-16 18:46:49,617 INFO org.apache.hadoop.ipc.Server: IPC Server handler 69 on 8020: starting
+2012-10-16 18:46:49,652 INFO org.apache.hadoop.ipc.Server: IPC Server handler 51 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 50 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 48 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 49 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 47 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 46 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 45 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 44 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 35 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 43 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 42 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 41 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 40 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 39 on 8020: starting
+2012-10-16 18:46:49,653 INFO org.apache.hadoop.ipc.Server: IPC Server handler 38 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 37 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 36 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 32 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 34 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 31 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 33 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 30 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 29 on 8020: starting
+2012-10-16 18:46:49,654 INFO org.apache.hadoop.ipc.Server: IPC Server handler 28 on 8020: starting
+2012-10-16 18:47:11,795 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.0.193:50010 storage DS-924087731-10.10.11.235-50010-1347411833414
+2012-10-16 18:47:11,798 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.0.193:50010
+2012-10-16 18:47:11,798 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:47:11,803 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 192.168.0.193:50010 0 blocks
+2012-10-16 18:47:43,957 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:train cause:org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/dboutput. Name node is in safe mode.
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:47:43,958 INFO org.apache.hadoop.ipc.Server: IPC Server handler 25 on 8020, call delete(/user/train/dboutput, true) from 192.168.0.193:33656: error: org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/dboutput. Name node is in safe mode.
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /user/train/dboutput. Name node is in safe mode.
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:2028)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:2008)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:769)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:578)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1388)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1384)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:396)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1122)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1382)
+2012-10-16 18:47:56,896 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 1 but the threshold is 1.0000 and the total blocks 343. Safe mode will be turned off automatically.
+2012-10-16 18:47:56,902 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 29 seconds.
+2012-10-16 18:47:56,902 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 8 msecs
+2012-10-16 18:48:16,933 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 343 has reached the threshold 1.0000 of total blocks 343. Safe mode will be turned off automatically in 9 seconds.
+2012-10-16 18:48:26,963 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 343
+2012-10-16 18:48:26,963 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 343
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 16 msec
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 99 secs.
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-10-16 18:48:26,964 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 343 blocks
+2012-10-16 18:48:27,447 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 1 msec
+2012-10-16 18:48:27,447 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 0 msec
+2012-10-16 18:48:27,447 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 0 msec processing time, 0 msec clock time, 1 cycles
+2012-10-16 18:48:27,887 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6093449676356896052 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 18:48:27,888 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 18:48:28,089 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/jobtracker.info. blk_2572900163852925077_2070
+2012-10-16 18:48:28,119 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_2572900163852925077_2070 size 4
+2012-10-16 18:48:28,123 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/jobtracker.info from client DFSClient_335026442
+2012-10-16 18:48:28,124 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/jobtracker.info is closed by DFSClient_335026442
+2012-10-16 18:48:30,450 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.0.193:50010 to delete  blk_6093449676356896052_2069
+2012-10-16 18:49:38,970 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 343, processing time: 1 msecs
+2012-10-16 18:50:02,822 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is already OFF.
+2012-10-16 18:50:09,150 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 8 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 6 SyncTimes(ms): 171 
+2012-10-16 18:50:09,459 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161846_0001/job.jar. blk_-8970046310151631757_2071
+2012-10-16 18:50:09,491 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-8970046310151631757_2071 size 7139
+2012-10-16 18:50:09,493 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161846_0001/job.jar from client DFSClient_729780322
+2012-10-16 18:50:09,494 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161846_0001/job.jar is closed by DFSClient_729780322
+2012-10-16 18:50:09,500 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161846_0001/job.jar. New replication is 10
+2012-10-16 18:50:33,522 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161846_0002/job.jar. blk_8834554234472461769_2072
+2012-10-16 18:50:33,555 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_8834554234472461769_2072 size 7139
+2012-10-16 18:50:33,557 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161846_0002/job.jar from client DFSClient_536410304
+2012-10-16 18:50:33,557 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161846_0002/job.jar is closed by DFSClient_536410304
+2012-10-16 18:50:33,563 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161846_0002/job.jar. New replication is 10
+2012-10-16 18:51:50,080 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.193
+2012-10-16 18:51:50,080 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 24 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 20 SyncTimes(ms): 466 
+2012-10-16 18:51:50,136 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=2025, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:51:50,136 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 2025, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 18:51:50,989 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-16 18:51:51,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.193
+2012-10-16 18:51:51,056 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 13 
+2012-10-16 18:51:51,148 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 18:51:51,148 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 18:55:40,482 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 18:55:40,701 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161846_0003/job.jar. blk_6704365399391427194_2073
+2012-10-16 18:55:40,733 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_6704365399391427194_2073 size 7158
+2012-10-16 18:55:40,737 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161846_0003/job.jar from client DFSClient_982602432
+2012-10-16 18:55:40,737 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161846_0003/job.jar is closed by DFSClient_982602432
+2012-10-16 18:55:40,743 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161846_0003/job.jar. New replication is 10
+2012-10-16 19:24:32,706 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at node/192.168.0.193
+************************************************************/
+2012-10-16 19:24:59,868 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = node/192.168.0.193
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3.15
+STARTUP_MSG:   build =  -r ; compiled by 'jenkins' on Thu Aug 30 14:53:12 PDT 2012
+************************************************************/
+2012-10-16 19:25:00,050 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2012-10-16 19:25:00,077 INFO org.apache.hadoop.metrics2.impl.MetricsSinkAdapter: Sink ganglia started
+2012-10-16 19:25:00,141 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2012-10-16 19:25:00,143 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2012-10-16 19:25:00,143 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2012-10-16 19:25:00,285 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2012-10-16 19:25:00,299 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2012-10-16 19:25:00,299 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2012-10-16 19:25:00,351 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2012-10-16 19:25:00,352 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 4.60875 MB
+2012-10-16 19:25:00,352 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^19 = 524288 entries
+2012-10-16 19:25:00,352 INFO org.apache.hadoop.hdfs.util.GSet: recommended=524288, actual=524288
+2012-10-16 19:25:00,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hdfs
+2012-10-16 19:25:00,376 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=hdfs
+2012-10-16 19:25:00,376 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2012-10-16 19:25:00,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2012-10-16 19:25:00,382 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=true accessKeyUpdateInterval=600 min(s), accessTokenLifetime=600 min(s)
+2012-10-16 19:25:00,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2012-10-16 19:25:00,719 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: dfs.namenode.edits.toleration.length = -1
+2012-10-16 19:25:00,719 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2012-10-16 19:25:00,732 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 519
+2012-10-16 19:25:00,814 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2012-10-16 19:25:00,814 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62714 loaded in 0 seconds.
+2012-10-16 19:25:00,820 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Invalid opcode, reached end of edit log Number of transactions found 8
+2012-10-16 19:25:00,820 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /hadoop/hdfs/namenode/current/edits of size 1048580 edits # 8 loaded in 0 seconds.
+2012-10-16 19:25:00,837 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62938 saved in 0 seconds.
+2012-10-16 19:25:00,956 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 19:25:00,957 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 19:25:01,009 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 62938 saved in 0 seconds.
+2012-10-16 19:25:01,117 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 19:25:01,117 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 19:25:01,174 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 3 entries 38 lookups
+2012-10-16 19:25:01,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 810 msecs
+2012-10-16 19:25:01,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.threshold.pct          = 1.0
+2012-10-16 19:25:01,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.namenode.safemode.min.datanodes = 0
+2012-10-16 19:25:01,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.safemode.extension              = 30000
+2012-10-16 19:25:01,192 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 346. Safe mode will be turned off automatically.
+2012-10-16 19:25:01,205 INFO org.apache.hadoop.hdfs.security.token.block.BlockTokenSecretManager: Updating block keys
+2012-10-16 19:25:01,206 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2012-10-16 19:25:01,212 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2012-10-16 19:25:01,261 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:01,268 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:01,272 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:01,273 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:01,276 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort8020 registered.
+2012-10-16 19:25:01,276 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort8020 registered.
+2012-10-16 19:25:01,278 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Namenode up at: node/192.168.0.193:8020
+2012-10-16 19:25:01,279 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2012-10-16 19:25:01,389 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2012-10-16 19:25:01,474 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2012-10-16 19:25:01,484 INFO org.apache.hadoop.http.HttpServer: dfs.webhdfs.enabled = true
+2012-10-16 19:25:01,485 INFO org.apache.hadoop.http.HttpServer: Added filter 'SPNEGO' (class=org.apache.hadoop.hdfs.web.AuthFilter)
+2012-10-16 19:25:01,487 INFO org.apache.hadoop.http.HttpServer: addJerseyResourcePackage: packageName=org.apache.hadoop.hdfs.server.namenode.web.resources;org.apache.hadoop.hdfs.web.resources, pathSpec=/webhdfs/v1/*
+2012-10-16 19:25:01,502 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50070
+2012-10-16 19:25:01,504 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50070 webServer.getConnectors()[0].getLocalPort() returned 50070
+2012-10-16 19:25:01,504 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50070
+2012-10-16 19:25:01,504 INFO org.mortbay.log: jetty-6.1.26
+2012-10-16 19:25:01,914 WARN org.apache.hadoop.security.authentication.server.AuthenticationFilter: 'signature.secret' configuration not set, using a random value as secret
+2012-10-16 19:25:01,982 INFO org.mortbay.log: Started SelectChannelConnector@node:50070
+2012-10-16 19:25:01,983 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Web-server up at: node:50070
+2012-10-16 19:25:01,983 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2012-10-16 19:25:01,986 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8020: starting
+2012-10-16 19:25:01,987 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8020: starting
+2012-10-16 19:25:01,985 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8020: starting
+2012-10-16 19:25:01,989 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8020: starting
+2012-10-16 19:25:01,990 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: starting
+2012-10-16 19:25:01,995 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8020: starting
+2012-10-16 19:25:01,996 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8020: starting
+2012-10-16 19:25:01,996 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8020: starting
+2012-10-16 19:25:01,997 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8020: starting
+2012-10-16 19:25:01,998 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8020: starting
+2012-10-16 19:25:01,998 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8020: starting
+2012-10-16 19:25:01,999 INFO org.apache.hadoop.ipc.Server: IPC Server handler 10 on 8020: starting
+2012-10-16 19:25:01,999 INFO org.apache.hadoop.ipc.Server: IPC Server handler 11 on 8020: starting
+2012-10-16 19:25:01,999 INFO org.apache.hadoop.ipc.Server: IPC Server handler 12 on 8020: starting
+2012-10-16 19:25:02,000 INFO org.apache.hadoop.ipc.Server: IPC Server handler 13 on 8020: starting
+2012-10-16 19:25:02,000 INFO org.apache.hadoop.ipc.Server: IPC Server handler 14 on 8020: starting
+2012-10-16 19:25:02,001 INFO org.apache.hadoop.ipc.Server: IPC Server handler 15 on 8020: starting
+2012-10-16 19:25:02,001 INFO org.apache.hadoop.ipc.Server: IPC Server handler 16 on 8020: starting
+2012-10-16 19:25:02,023 INFO org.apache.hadoop.ipc.Server: IPC Server handler 17 on 8020: starting
+2012-10-16 19:25:02,029 INFO org.apache.hadoop.ipc.Server: IPC Server handler 18 on 8020: starting
+2012-10-16 19:25:02,037 INFO org.apache.hadoop.ipc.Server: IPC Server handler 19 on 8020: starting
+2012-10-16 19:25:02,040 INFO org.apache.hadoop.ipc.Server: IPC Server handler 20 on 8020: starting
+2012-10-16 19:25:02,048 INFO org.apache.hadoop.ipc.Server: IPC Server handler 21 on 8020: starting
+2012-10-16 19:25:02,055 INFO org.apache.hadoop.ipc.Server: IPC Server handler 22 on 8020: starting
+2012-10-16 19:25:02,056 INFO org.apache.hadoop.ipc.Server: IPC Server handler 23 on 8020: starting
+2012-10-16 19:25:02,059 INFO org.apache.hadoop.ipc.Server: IPC Server handler 24 on 8020: starting
+2012-10-16 19:25:02,068 INFO org.apache.hadoop.ipc.Server: IPC Server handler 25 on 8020: starting
+2012-10-16 19:25:02,074 INFO org.apache.hadoop.ipc.Server: IPC Server handler 26 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 27 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 34 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 33 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 32 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 31 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 30 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 29 on 8020: starting
+2012-10-16 19:25:02,161 INFO org.apache.hadoop.ipc.Server: IPC Server handler 28 on 8020: starting
+2012-10-16 19:25:02,162 INFO org.apache.hadoop.ipc.Server: IPC Server handler 35 on 8020: starting
+2012-10-16 19:25:02,166 INFO org.apache.hadoop.ipc.Server: IPC Server handler 36 on 8020: starting
+2012-10-16 19:25:02,166 INFO org.apache.hadoop.ipc.Server: IPC Server handler 37 on 8020: starting
+2012-10-16 19:25:02,166 INFO org.apache.hadoop.ipc.Server: IPC Server handler 38 on 8020: starting
+2012-10-16 19:25:02,166 INFO org.apache.hadoop.ipc.Server: IPC Server handler 39 on 8020: starting
+2012-10-16 19:25:02,167 INFO org.apache.hadoop.ipc.Server: IPC Server handler 40 on 8020: starting
+2012-10-16 19:25:02,167 INFO org.apache.hadoop.ipc.Server: IPC Server handler 41 on 8020: starting
+2012-10-16 19:25:02,167 INFO org.apache.hadoop.ipc.Server: IPC Server handler 42 on 8020: starting
+2012-10-16 19:25:02,167 INFO org.apache.hadoop.ipc.Server: IPC Server handler 43 on 8020: starting
+2012-10-16 19:25:02,167 INFO org.apache.hadoop.ipc.Server: IPC Server handler 44 on 8020: starting
+2012-10-16 19:25:02,167 INFO org.apache.hadoop.ipc.Server: IPC Server handler 45 on 8020: starting
+2012-10-16 19:25:02,168 INFO org.apache.hadoop.ipc.Server: IPC Server handler 46 on 8020: starting
+2012-10-16 19:25:02,168 INFO org.apache.hadoop.ipc.Server: IPC Server handler 47 on 8020: starting
+2012-10-16 19:25:02,168 INFO org.apache.hadoop.ipc.Server: IPC Server handler 48 on 8020: starting
+2012-10-16 19:25:02,168 INFO org.apache.hadoop.ipc.Server: IPC Server handler 49 on 8020: starting
+2012-10-16 19:25:02,168 INFO org.apache.hadoop.ipc.Server: IPC Server handler 50 on 8020: starting
+2012-10-16 19:25:02,169 INFO org.apache.hadoop.ipc.Server: IPC Server handler 51 on 8020: starting
+2012-10-16 19:25:02,169 INFO org.apache.hadoop.ipc.Server: IPC Server handler 52 on 8020: starting
+2012-10-16 19:25:02,169 INFO org.apache.hadoop.ipc.Server: IPC Server handler 53 on 8020: starting
+2012-10-16 19:25:02,169 INFO org.apache.hadoop.ipc.Server: IPC Server handler 54 on 8020: starting
+2012-10-16 19:25:02,169 INFO org.apache.hadoop.ipc.Server: IPC Server handler 55 on 8020: starting
+2012-10-16 19:25:02,169 INFO org.apache.hadoop.ipc.Server: IPC Server handler 56 on 8020: starting
+2012-10-16 19:25:02,170 INFO org.apache.hadoop.ipc.Server: IPC Server handler 57 on 8020: starting
+2012-10-16 19:25:02,170 INFO org.apache.hadoop.ipc.Server: IPC Server handler 58 on 8020: starting
+2012-10-16 19:25:02,170 INFO org.apache.hadoop.ipc.Server: IPC Server handler 59 on 8020: starting
+2012-10-16 19:25:02,170 INFO org.apache.hadoop.ipc.Server: IPC Server handler 60 on 8020: starting
+2012-10-16 19:25:02,171 INFO org.apache.hadoop.ipc.Server: IPC Server handler 61 on 8020: starting
+2012-10-16 19:25:02,188 INFO org.apache.hadoop.ipc.Server: IPC Server handler 62 on 8020: starting
+2012-10-16 19:25:02,192 INFO org.apache.hadoop.ipc.Server: IPC Server handler 63 on 8020: starting
+2012-10-16 19:25:02,197 INFO org.apache.hadoop.ipc.Server: IPC Server handler 64 on 8020: starting
+2012-10-16 19:25:02,205 INFO org.apache.hadoop.ipc.Server: IPC Server handler 65 on 8020: starting
+2012-10-16 19:25:02,208 INFO org.apache.hadoop.ipc.Server: IPC Server handler 66 on 8020: starting
+2012-10-16 19:25:02,214 INFO org.apache.hadoop.ipc.Server: IPC Server handler 67 on 8020: starting
+2012-10-16 19:25:02,220 INFO org.apache.hadoop.ipc.Server: IPC Server handler 68 on 8020: starting
+2012-10-16 19:25:02,232 INFO org.apache.hadoop.ipc.Server: IPC Server handler 69 on 8020: starting
+2012-10-16 19:25:02,237 INFO org.apache.hadoop.ipc.Server: IPC Server handler 70 on 8020: starting
+2012-10-16 19:25:02,243 INFO org.apache.hadoop.ipc.Server: IPC Server handler 71 on 8020: starting
+2012-10-16 19:25:02,243 INFO org.apache.hadoop.ipc.Server: IPC Server handler 72 on 8020: starting
+2012-10-16 19:25:02,247 INFO org.apache.hadoop.ipc.Server: IPC Server handler 73 on 8020: starting
+2012-10-16 19:25:02,248 INFO org.apache.hadoop.ipc.Server: IPC Server handler 74 on 8020: starting
+2012-10-16 19:25:02,255 INFO org.apache.hadoop.ipc.Server: IPC Server handler 75 on 8020: starting
+2012-10-16 19:25:02,264 INFO org.apache.hadoop.ipc.Server: IPC Server handler 76 on 8020: starting
+2012-10-16 19:25:02,275 INFO org.apache.hadoop.ipc.Server: IPC Server handler 77 on 8020: starting
+2012-10-16 19:25:02,285 INFO org.apache.hadoop.ipc.Server: IPC Server handler 78 on 8020: starting
+2012-10-16 19:25:02,291 INFO org.apache.hadoop.ipc.Server: IPC Server handler 79 on 8020: starting
+2012-10-16 19:25:02,291 INFO org.apache.hadoop.ipc.Server: IPC Server handler 80 on 8020: starting
+2012-10-16 19:25:02,297 INFO org.apache.hadoop.ipc.Server: IPC Server handler 81 on 8020: starting
+2012-10-16 19:25:02,298 INFO org.apache.hadoop.ipc.Server: IPC Server handler 82 on 8020: starting
+2012-10-16 19:25:02,298 INFO org.apache.hadoop.ipc.Server: IPC Server handler 83 on 8020: starting
+2012-10-16 19:25:02,304 INFO org.apache.hadoop.ipc.Server: IPC Server handler 84 on 8020: starting
+2012-10-16 19:25:02,306 INFO org.apache.hadoop.ipc.Server: IPC Server handler 85 on 8020: starting
+2012-10-16 19:25:02,312 INFO org.apache.hadoop.ipc.Server: IPC Server handler 86 on 8020: starting
+2012-10-16 19:25:02,322 INFO org.apache.hadoop.ipc.Server: IPC Server handler 87 on 8020: starting
+2012-10-16 19:25:02,322 INFO org.apache.hadoop.ipc.Server: IPC Server handler 88 on 8020: starting
+2012-10-16 19:25:02,329 INFO org.apache.hadoop.ipc.Server: IPC Server handler 89 on 8020: starting
+2012-10-16 19:25:02,341 INFO org.apache.hadoop.ipc.Server: IPC Server handler 90 on 8020: starting
+2012-10-16 19:25:02,346 INFO org.apache.hadoop.ipc.Server: IPC Server handler 91 on 8020: starting
+2012-10-16 19:25:02,346 INFO org.apache.hadoop.ipc.Server: IPC Server handler 92 on 8020: starting
+2012-10-16 19:25:02,346 INFO org.apache.hadoop.ipc.Server: IPC Server handler 93 on 8020: starting
+2012-10-16 19:25:02,357 INFO org.apache.hadoop.ipc.Server: IPC Server handler 94 on 8020: starting
+2012-10-16 19:25:02,366 INFO org.apache.hadoop.ipc.Server: IPC Server handler 95 on 8020: starting
+2012-10-16 19:25:02,367 INFO org.apache.hadoop.ipc.Server: IPC Server handler 96 on 8020: starting
+2012-10-16 19:25:02,373 INFO org.apache.hadoop.ipc.Server: IPC Server handler 97 on 8020: starting
+2012-10-16 19:25:02,387 INFO org.apache.hadoop.ipc.Server: IPC Server handler 98 on 8020: starting
+2012-10-16 19:25:02,393 INFO org.apache.hadoop.ipc.Server: IPC Server handler 99 on 8020: starting
+2012-10-16 19:25:24,215 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 192.168.0.193:50010 storage DS-924087731-10.10.11.235-50010-1347411833414
+2012-10-16 19:25:24,218 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/192.168.0.193:50010
+2012-10-16 19:25:24,219 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 0 but the threshold is 1.0000 and the total blocks 346. Safe mode will be turned off automatically.
+2012-10-16 19:25:24,223 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameNode.blocksBeingWrittenReport: from 192.168.0.193:50010 0 blocks
+2012-10-16 19:26:42,359 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks is only 1 but the threshold is 1.0000 and the total blocks 346. Safe mode will be turned off automatically.
+2012-10-16 19:26:42,366 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode extension entered. 
+The reported blocks 346 has reached the threshold 1.0000 of total blocks 346. Safe mode will be turned off automatically in 29 seconds.
+2012-10-16 19:26:42,366 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 346, processing time: 10 msecs
+2012-10-16 19:27:02,408 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode ON. 
+The reported blocks 346 has reached the threshold 1.0000 of total blocks 346. Safe mode will be turned off automatically in 9 seconds.
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 346
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 346
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 16 msec
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 132 secs.
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode is OFF.
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 1 racks and 1 datanodes
+2012-10-16 19:27:12,471 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 346 blocks
+2012-10-16 19:27:12,792 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2572900163852925077 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 19:27:12,793 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 19:27:13,047 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/jobtracker.info. blk_-960412235856489687_2074
+2012-10-16 19:27:13,077 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-960412235856489687_2074 size 4
+2012-10-16 19:27:13,081 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/jobtracker.info from client DFSClient_972911833
+2012-10-16 19:27:13,082 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/jobtracker.info is closed by DFSClient_972911833
+2012-10-16 19:27:13,260 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 1 msec
+2012-10-16 19:27:13,261 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.0.193:50010 to delete  blk_2572900163852925077_2070
+2012-10-16 19:27:13,261 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 1 blocks in 1 msec
+2012-10-16 19:27:13,261 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 1 blocks in 1 msec processing time, 1 msec clock time, 1 cycles
+2012-10-16 19:27:28,704 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0001/job.jar. blk_-6736396524838948318_2075
+2012-10-16 19:27:28,738 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-6736396524838948318_2075 size 7158
+2012-10-16 19:27:28,742 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0001/job.jar from client DFSClient_-2015564802
+2012-10-16 19:27:28,742 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0001/job.jar is closed by DFSClient_-2015564802
+2012-10-16 19:27:28,747 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0001/job.jar. New replication is 10
+2012-10-16 19:30:02,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 192.168.0.193
+2012-10-16 19:30:02,736 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 16 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 13 SyncTimes(ms): 292 
+2012-10-16 19:30:02,787 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=1303, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 19:30:02,787 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 1303, editlog=/hadoop/hdfs/namenode/current/edits
+2012-10-16 19:30:03,710 INFO org.apache.hadoop.hdfs.server.namenode.TransferFsImage: Opening connection to http://node:50090/getimage?getimage=1
+2012-10-16 19:30:03,775 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 192.168.0.193
+2012-10-16 19:30:03,776 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 73 
+2012-10-16 19:30:03,877 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: closing edit log: position=4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 19:30:03,878 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: close success: truncate to 4, editlog=/hadoop/hdfs/namenode/current/edits.new
+2012-10-16 19:34:30,764 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2012-10-16 19:34:31,003 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0002/libjars/mysql-connector-java-5.1.22-bin.jar. blk_3631892580873333702_2076
+2012-10-16 19:34:31,116 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_3631892580873333702_2076 size 832960
+2012-10-16 19:34:31,116 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0002/libjars/mysql-connector-java-5.1.22-bin.jar from client DFSClient_-1571537061
+2012-10-16 19:34:31,116 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0002/libjars/mysql-connector-java-5.1.22-bin.jar is closed by DFSClient_-1571537061
+2012-10-16 19:34:31,223 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0002/libjars/mysql-connector-java-5.1.22-bin.jar. New replication is 10
+2012-10-16 19:34:31,247 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0002/job.jar. blk_-3699317936456189216_2077
+2012-10-16 19:34:31,252 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-3699317936456189216_2077 size 7158
+2012-10-16 19:34:31,253 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0002/job.jar from client DFSClient_-1571537061
+2012-10-16 19:34:31,253 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0002/job.jar is closed by DFSClient_-1571537061
+2012-10-16 19:34:31,258 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0002/job.jar. New replication is 10
+2012-10-16 19:55:28,889 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 15 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 12 SyncTimes(ms): 228 
+2012-10-16 19:55:29,189 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0003/libjars/mysql-connector-java-5.1.22-bin.jar. blk_5453830962248227117_2078
+2012-10-16 19:55:29,314 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_5453830962248227117_2078 size 832960
+2012-10-16 19:55:29,315 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0003/libjars/mysql-connector-java-5.1.22-bin.jar from client DFSClient_1047997496
+2012-10-16 19:55:29,315 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0003/libjars/mysql-connector-java-5.1.22-bin.jar is closed by DFSClient_1047997496
+2012-10-16 19:55:29,364 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0003/libjars/mysql-connector-java-5.1.22-bin.jar. New replication is 10
+2012-10-16 19:55:29,385 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0003/job.jar. blk_-6271181064914566341_2079
+2012-10-16 19:55:29,390 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-6271181064914566341_2079 size 7158
+2012-10-16 19:55:29,391 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0003/job.jar from client DFSClient_1047997496
+2012-10-16 19:55:29,391 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0003/job.jar is closed by DFSClient_1047997496
+2012-10-16 19:55:29,396 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0003/job.jar. New replication is 10
+2012-10-16 20:06:04,501 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 351, processing time: 1 msecs
+2012-10-16 21:01:07,851 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 30 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 24 SyncTimes(ms): 432 
+2012-10-16 21:01:08,196 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0004/job.jar. blk_2713130382436764513_2080
+2012-10-16 21:01:08,264 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_2713130382436764513_2080 size 7158
+2012-10-16 21:01:08,265 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0004/job.jar from client DFSClient_434336768
+2012-10-16 21:01:08,265 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0004/job.jar is closed by DFSClient_434336768
+2012-10-16 21:01:08,268 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0004/job.jar. New replication is 10
+2012-10-16 21:06:06,319 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 352, processing time: 1 msecs
+2012-10-16 21:12:49,606 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 38 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 31 SyncTimes(ms): 637 
+2012-10-16 21:12:49,893 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0005/job.jar. blk_4452890872411494395_2081
+2012-10-16 21:12:49,955 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_4452890872411494395_2081 size 7158
+2012-10-16 21:12:49,957 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0005/job.jar from client DFSClient_1691841989
+2012-10-16 21:12:49,957 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0005/job.jar is closed by DFSClient_1691841989
+2012-10-16 21:12:49,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0005/job.jar. New replication is 10
+2012-10-16 21:16:13,642 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 46 Total time for transactions(ms): 0Number of transactions batched in Syncs: 1 Number of syncs: 37 SyncTimes(ms): 763 
+2012-10-16 21:16:13,900 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0006/job.jar. blk_4584670038644173132_2082
+2012-10-16 21:16:13,934 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_4584670038644173132_2082 size 7173
+2012-10-16 21:16:13,936 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0006/job.jar from client DFSClient_-2083710898
+2012-10-16 21:16:13,936 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0006/job.jar is closed by DFSClient_-2083710898
+2012-10-16 21:16:13,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0006/job.jar. New replication is 10
+2012-10-16 21:16:14,381 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0006/job.split. New replication is 10
+2012-10-16 21:16:14,387 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0006/job.split. blk_-4363366356951966289_2083
+2012-10-16 21:16:14,391 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-4363366356951966289_2083 size 163
+2012-10-16 21:16:14,393 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0006/job.split from client DFSClient_-2083710898
+2012-10-16 21:16:14,393 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0006/job.split is closed by DFSClient_-2083710898
+2012-10-16 21:16:14,403 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0006/job.splitmetainfo. blk_-4825215796737921274_2084
+2012-10-16 21:16:14,409 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-4825215796737921274_2084 size 16
+2012-10-16 21:16:14,413 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0006/job.splitmetainfo from client DFSClient_-2083710898
+2012-10-16 21:16:14,414 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0006/job.splitmetainfo is closed by DFSClient_-2083710898
+2012-10-16 21:16:14,622 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0006/job.xml. blk_8106071779253445256_2085
+2012-10-16 21:16:14,641 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_8106071779253445256_2085 size 26415
+2012-10-16 21:16:14,643 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0006/job.xml from client DFSClient_-2083710898
+2012-10-16 21:16:14,643 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0006/job.xml is closed by DFSClient_-2083710898
+2012-10-16 21:16:14,714 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/job_201210161925_0006/job-info. blk_1697305413236747350_2086
+2012-10-16 21:16:14,719 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_1697305413236747350_2086 size 85
+2012-10-16 21:16:14,721 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/job_201210161925_0006/job-info from client DFSClient_972911833
+2012-10-16 21:16:14,722 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/job_201210161925_0006/job-info is closed by DFSClient_972911833
+2012-10-16 21:16:18,393 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/job_201210161925_0006/jobToken. blk_3806607055277730436_2087
+2012-10-16 21:16:18,398 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_3806607055277730436_2087 size 106
+2012-10-16 21:16:18,401 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/job_201210161925_0006/jobToken from client DFSClient_972911833
+2012-10-16 21:16:18,401 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/job_201210161925_0006/jobToken is closed by DFSClient_972911833
+2012-10-16 21:16:31,330 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/dboutput/_temporary/_attempt_201210161925_0006_r_000000_0/part-r-00000. blk_2672967402522240888_2088
+2012-10-16 21:16:31,375 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_2672967402522240888_2088 size 28
+2012-10-16 21:16:31,377 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/dboutput/_temporary/_attempt_201210161925_0006_r_000000_0/part-r-00000 from client DFSClient_attempt_201210161925_0006_r_000000_0
+2012-10-16 21:16:31,377 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/dboutput/_temporary/_attempt_201210161925_0006_r_000000_0/part-r-00000 is closed by DFSClient_attempt_201210161925_0006_r_000000_0
+2012-10-16 21:16:34,158 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4584670038644173132 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,158 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4363366356951966289 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,158 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4825215796737921274 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,158 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_8106071779253445256 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,248 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_1697305413236747350 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,248 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3806607055277730436 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,265 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0006_1350447374653_train_DatabaseDemoJob. blk_-7212530411071825458_2089
+2012-10-16 21:16:34,269 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-7212530411071825458_2089 size 15949
+2012-10-16 21:16:34,271 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0006_1350447374653_train_DatabaseDemoJob from client DFSClient_972911833
+2012-10-16 21:16:34,272 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0006_1350447374653_train_DatabaseDemoJob is closed by DFSClient_972911833
+2012-10-16 21:16:34,288 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0006_conf.xml. blk_2516654948780337184_2090
+2012-10-16 21:16:34,292 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_2516654948780337184_2090 size 26413
+2012-10-16 21:16:34,294 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0006_conf.xml from client DFSClient_972911833
+2012-10-16 21:16:34,295 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0006_conf.xml is closed by DFSClient_972911833
+2012-10-16 21:16:34,351 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-3559924037265749434 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,351 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4745761630882962238 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,351 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3748273733440715325 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,351 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8410885394400129375 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,351 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6079452357049095190 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,351 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-143309709859218746 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,352 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_2374156196602564485 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,352 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4522709228940538835 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,352 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_7044868409691193644 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,352 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8616422123691357408 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,352 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_5976484890468320469 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,352 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6779237420329679461 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1721270984451210852 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1148693227269464812 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-1044688211304585931 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4325441035350016279 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2409167995852183568 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,361 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_7128430082006462017 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8167272108658986868 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_6326859958666658260 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3102975236488408916 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-8732384480881790172 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-4030894442033398931 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,371 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-5219232734418369558 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 21:16:34,612 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.0.193:50010 to delete  blk_1697305413236747350_2086 blk_-1044688211304585931_1539 blk_4745761630882962238_1207 blk_7044868409691193644_1372 blk_3748273733440715325_1349 blk_6779237420329679461_1382 blk_-4522709228940538835_1364 blk_3102975236488408916_1702 blk_6326859958666658260_1559 blk_6079452357049095190_1353 blk_-5219232734418369558_1707 blk_-143309709859218746_1354 blk_-8732384480881790172_1703 blk_-3559924037265749434_1206 blk_-4363366356951966289_2083 blk_-4030894442033398931_1706 blk_2374156196602564485_1363 blk_-4825215796737921274_2084 blk_-1148693227269464812_1397 blk_-8410885394400129375_1350 blk_-2409167995852183568_1543 blk_-1721270984451210852_1396 blk_4325441035350016279_1540 blk_8106071779253445256_2085 blk_-8616422123691357408_1373 blk_-8167272108658986868_1558 blk_3806607055277730436_2087 blk_7128430082006462017_1544 blk_5976484890468320469_1381 blk_4584670038644173132_2082
+2012-10-16 22:06:05,227 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 332, processing time: 2 msecs
+2012-10-16 22:49:24,904 INFO org.apache.hadoop.hdfs.server.namenode.FSEditLog: Number of transactions: 112 Total time for transactions(ms): 3Number of transactions batched in Syncs: 1 Number of syncs: 80 SyncTimes(ms): 1400 
+2012-10-16 22:49:25,070 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0007/job.jar. blk_3590489459100459364_2091
+2012-10-16 22:49:25,102 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_3590489459100459364_2091 size 11600
+2012-10-16 22:49:25,106 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0007/job.jar from client DFSClient_1399677788
+2012-10-16 22:49:25,107 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0007/job.jar is closed by DFSClient_1399677788
+2012-10-16 22:49:25,110 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0007/job.jar. New replication is 10
+2012-10-16 22:49:25,440 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Increasing replication for file /user/train/.staging/job_201210161925_0007/job.split. New replication is 10
+2012-10-16 22:49:25,449 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0007/job.split. blk_-7315051326541746497_2092
+2012-10-16 22:49:25,455 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-7315051326541746497_2092 size 163
+2012-10-16 22:49:25,858 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0007/job.split from client DFSClient_1399677788
+2012-10-16 22:49:25,859 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0007/job.split is closed by DFSClient_1399677788
+2012-10-16 22:49:25,997 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0007/job.splitmetainfo. blk_4596734694279123450_2093
+2012-10-16 22:49:26,002 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_4596734694279123450_2093 size 16
+2012-10-16 22:49:26,002 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0007/job.splitmetainfo from client DFSClient_1399677788
+2012-10-16 22:49:26,002 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0007/job.splitmetainfo is closed by DFSClient_1399677788
+2012-10-16 22:49:26,054 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /user/train/.staging/job_201210161925_0007/job.xml. blk_-2235264445252936700_2094
+2012-10-16 22:49:26,059 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-2235264445252936700_2094 size 26507
+2012-10-16 22:49:26,060 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /user/train/.staging/job_201210161925_0007/job.xml from client DFSClient_1399677788
+2012-10-16 22:49:26,060 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /user/train/.staging/job_201210161925_0007/job.xml is closed by DFSClient_1399677788
+2012-10-16 22:49:26,109 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/job_201210161925_0007/job-info. blk_7984415604500248862_2095
+2012-10-16 22:49:26,112 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_7984415604500248862_2095 size 85
+2012-10-16 22:49:26,115 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/job_201210161925_0007/job-info from client DFSClient_972911833
+2012-10-16 22:49:26,115 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/job_201210161925_0007/job-info is closed by DFSClient_972911833
+2012-10-16 22:49:27,491 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/system/job_201210161925_0007/jobToken. blk_-6507433220773917531_2096
+2012-10-16 22:49:27,495 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_-6507433220773917531_2096 size 106
+2012-10-16 22:49:27,497 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/system/job_201210161925_0007/jobToken from client DFSClient_972911833
+2012-10-16 22:49:27,497 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/system/job_201210161925_0007/jobToken is closed by DFSClient_972911833
+2012-10-16 22:49:41,465 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_3590489459100459364 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 22:49:41,465 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-7315051326541746497 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 22:49:41,465 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4596734694279123450 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 22:49:41,465 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-2235264445252936700 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 22:49:41,620 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_7984415604500248862 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 22:49:41,620 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-6507433220773917531 is added to invalidSet of 192.168.0.193:50010
+2012-10-16 22:49:41,631 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0007_1350452966063_train_DBOutputDemoJob. blk_4190157131290258588_2097
+2012-10-16 22:49:41,645 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_4190157131290258588_2097 size 15771
+2012-10-16 22:49:41,647 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0007_1350452966063_train_DBOutputDemoJob from client DFSClient_972911833
+2012-10-16 22:49:41,647 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0007_1350452966063_train_DBOutputDemoJob is closed by DFSClient_972911833
+2012-10-16 22:49:41,673 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0007_conf.xml. blk_951228028609391966_2098
+2012-10-16 22:49:41,682 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 192.168.0.193:50010 is added to blk_951228028609391966_2098 size 26505
+2012-10-16 22:49:41,684 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0007_conf.xml from client DFSClient_972911833
+2012-10-16 22:49:41,685 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /mapred/history/done/version-1/node_1350440704396_/2012/10/16/000000/job_201210161925_0007_conf.xml is closed by DFSClient_972911833
+2012-10-16 22:49:43,733 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 192.168.0.193:50010 to delete  blk_7984415604500248862_2095 blk_-6507433220773917531_2096 blk_3590489459100459364_2091 blk_-2235264445252936700_2094 blk_4596734694279123450_2093 blk_-7315051326541746497_2092
+2012-10-16 23:06:04,135 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 192.168.0.193:50010, blocks: 334, processing time: 2 msecs
